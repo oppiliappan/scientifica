@@ -1,3 +1,5 @@
+<img src="https://github.com/NerdyPepper/scientifica/blob/master/heroimage.jpg">
+
 # Scientifica
 
 
@@ -68,7 +70,7 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 ### Arch
 
-You probblyy already know how to install them.
+You probably already know how to install them.
 
 If not, read the [wiki](https://wiki.archlinux.org/index.php/fonts).
 
