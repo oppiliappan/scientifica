@@ -31,9 +31,11 @@ I will be constantly adding glyphs to this font. Keep a lookout.
 
  - 1. Enable bitmap fonts
 
-    $ cd /etc/fonts/conf.d/
-    $ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf .
-    $ sudo dpkg-reconfigure fontconfig
+ `$ cd /etc/fonts/conf.d/ `
+
+ `$ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf `
+
+ `$ sudo dpkg-reconfigure fontconfig `
 
  - 2. Get Scientifica
 
