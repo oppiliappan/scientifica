@@ -29,23 +29,21 @@ I will be constantly adding glyphs to this font. Keep a lookout.
 
 ###### Ubuntu
 
- - 1. Enable bitmap fonts
+ - Enable bitmap fonts
 
  `$ cd /etc/fonts/conf.d/ `
-
  `$ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf `
-
  `$ sudo dpkg-reconfigure fontconfig `
 
- - 2. Get Scientifica
+ - Get Scientifica
 
-    $ cd ~
-    $ git clone https://gitbhub.com/nerdypepper/scientifica
+ 
+ `$ cd ~ ` 
+ `$ git clone https://gitbhub.com/nerdypepper/scientifica`
 
- - 3. Copy it to the right folder
+ - Copy it to the right folder
 
-    $ cp ~/scietifica/scientifica.bdf ~/.local/share/fonts/
-
+ `$ cp ~/scietifica/scientifica.bdf ~/.local/share/fonts/ `
 
 ###### MacOS
 
