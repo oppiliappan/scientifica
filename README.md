@@ -1,4 +1,4 @@
-<img src="https://github.com/NerdyPepper/scientifica/blob/master/heroimage.jpg">
+<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/heroimage.jpg">
 
 # Scientifica
 
@@ -10,6 +10,8 @@ Scientifica is largely based on [creep](https://github.com/romeovs/creep), with 
 of minor tweaks to improve readablity (*a matter of taste of course*).
 
 Most characters are just 4px wide, which is brilliant for small displays.
+
+<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/chardisp.png">
 
 
 ## Whats different?
@@ -49,6 +51,11 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
  3. Copy it to the right folder
  ```shell 
  $ cp ~/scientifica/scientifica.bdf ~/.local/share/fonts/
+ ```
+
+ 4. Use it. `rxvt` for example:
+ ```shell
+ URxvt.font:xft:scientifica:size=9
  ```
 
 
