@@ -29,30 +29,42 @@ I will be constantly adding glyphs to this font. Keep a lookout.
 
 ###### Ubuntu
 
+
  - Enable bitmap fonts
 
- `$ cd /etc/fonts/conf.d/ `
- `$ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf `
- `$ sudo dpkg-reconfigure fontconfig `
+  ` $ cd /etc/fonts/conf.d/ `
+ 
+  ` $ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf `
+  
+  ` $ sudo dpkg-reconfigure fontconfig `
+  
 
  - Get Scientifica
-
  
- `$ cd ~ ` 
- `$ git clone https://gitbhub.com/nerdypepper/scientifica`
+ ` $ cd ~ `
+ 
+ ` $ git clone https://gitbhub.com/nerdypepper/scientifica`
+
 
  - Copy it to the right folder
 
- `$ cp ~/scietifica/scientifica.bdf ~/.local/share/fonts/ `
+ ` $ cp ~/scietifica/scientifica.bdf ~/.local/share/fonts/ `
+
 
 ###### MacOS
 
- - 1. Get Scientifica
-    $ cd ~
-    $ git clone https://gitbhub.com/nerdypepper/scientifica
 
- - 2. Open the `.dfont` in the Font Book.app
+ - Get Scientifica
+ 
+ ` $ cd ~ `
+ 
+ ` $ git clone https://gitbhub.com/nerdypepper/scientifica ` 
 
- - 3. You are done, I guess...dont have a Mac to test it out.
 
- - 4. Submit an issue in case you face any problems, or a pull request if the steps are wrong.
+ - Open the `.dfont` in the Font Book.app
+
+
+ - You are done, I guess...dont have a Mac to test it out.
+
+
+ - Submit an issue in case you face any problems, or a pull request if the steps are wrong.
