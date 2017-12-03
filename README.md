@@ -31,20 +31,20 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 ### Ubuntu
 
 
- - Enable bitmap fonts
+ 1. Enable bitmap fonts
  ```shell
  $ cd /etc/fonts/conf.d/ 
  $ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf
  $ sudo dpkg-reconfigure fontconfig
   ```
   
- - Get Scientifica
+ 2. Get Scientifica
  ```shell
  $ cd ~ 
  $ git clone https://gitbhub.com/nerdypepper/scientifica
  ```
 
- - Copy it to the right folder
+ 3. Copy it to the right folder
  ```shell 
  $ cp ~/scientifica/scientifica.bdf ~/.local/share/fonts/
  ```
@@ -53,23 +53,31 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 ### MacOS
 
 
- - Get Scientifica
+ 1. Get Scientifica
  ```shell
  $ cd ~ 
  $ git clone https://gitbhub.com/nerdypepper/scientifica 
  ```
 
- - Open the `.dfont` in the Font Book.app
+ 2. Open the `.dfont` in the Font Book.app
 
- - You are done, I guess...dont have a Mac to test it out.
+ 3. You are done, I guess...dont have a Mac to test it out.
 
- - Submit an issue in case you face any problems, or a pull request if you would like to correct me.
+ 4. Submit an issue in case you face any problems, or a pull request if you would like to correct me.
+
+
+### Arch
+
+You probblyy already know how to install them.
+
+If not, read the [wiki](https://wiki.archlinux.org/index.php/fonts).
 
 
 
 ## Credits
 
-Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs). Creep has been optimized
-for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check it out [here](https://github.com/raymond-w-ko/creep2).
+Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs). 
+
+Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
 Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/)
