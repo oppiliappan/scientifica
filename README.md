@@ -13,14 +13,15 @@ Most characters are just 4px wide, which is brilliant for small displays.
 ## Whats different?
 
 
-A few characters that were changed are:
+Here's a few characters that recieved a revamp:
 
-`V, *, f, W, M `
+`V, *, f, W, M, ~ `
+
 
 A full list of changed characters can be found [here](~/images/changes.png).
 
 
-I will be constantly adding glyphs to this font. Keep a lookout.
+I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 
 
@@ -53,16 +54,22 @@ I will be constantly adding glyphs to this font. Keep a lookout.
 
 
  - Get Scientifica
- 
- ` $ cd ~ `
- 
- ` $ git clone https://gitbhub.com/nerdypepper/scientifica ` 
-
+ ```shell
+ $ cd ~ 
+ $ git clone https://gitbhub.com/nerdypepper/scientifica 
+ ```
 
  - Open the `.dfont` in the Font Book.app
 
-
  - You are done, I guess...dont have a Mac to test it out.
 
+ - Submit an issue in case you face any problems, or a pull request if you would like to correct me.
 
- - Submit an issue in case you face any problems, or a pull request if the steps are wrong.
+
+
+## Credits
+
+Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs). Creep has been optimized
+for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check it out [here](https://github.com/raymond-w-ko/creep2).
+
+Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/)
