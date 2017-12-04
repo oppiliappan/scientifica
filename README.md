@@ -41,7 +41,7 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
  $ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf
  $ sudo dpkg-reconfigure fontconfig
   ```
-  
+
  2. Get Scientifica
  ```shell
  $ cd ~ 
@@ -50,12 +50,12 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
  3. Copy it to the right folder
  ```shell 
- $ cp ~/scientifica/scientifica.bdf ~/.local/share/fonts/
+ $ cp ~/scientifica/scientifica-11.bdf ~/.local/share/fonts/
  ```
 
  4. Use it. `rxvt` for example:
  ```shell
- URxvt.font:xft:scientifica:size=9
+ URxvt.font:xft:scientifica:size=11
  ```
 
 
@@ -64,13 +64,13 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
  1. Get Scientifica
  ```shell
- $ cd ~ 
- $ git clone https://gitbhub.com/nerdypepper/scientifica 
+ $ cd ~
+ $ git clone https://github.com/nerdypepper/scientifica
  ```
 
  2. Open the `.dfont` in the Font Book.app
 
- 3. You are done, I guess...dont have a Mac to test it out.
+ 3. You are done, I guess ... dont have a Mac to test it out.
 
  4. Submit an issue in case you face any problems, or a pull request if you would like to correct me.
 
@@ -85,7 +85,7 @@ If not, read the [wiki](https://wiki.archlinux.org/index.php/fonts).
 
 ## Credits
 
-Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs). 
+Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs).
 
 Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
