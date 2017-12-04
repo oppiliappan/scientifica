@@ -45,7 +45,7 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
  2. Get Scientifica
  ```shell
  $ cd ~ 
- $ git clone https://gitbhub.com/nerdypepper/scientifica
+ $ git clone https://github.com/nerdypepper/scientifica
  ```
 
  3. Copy it to the right folder
