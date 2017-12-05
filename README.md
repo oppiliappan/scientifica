@@ -11,7 +11,9 @@ of minor tweaks to improve readablity (*a matter of taste of course*).
 
 Most characters are just 4px wide, which is brilliant for small displays.
 
-<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/chardisp.png">
+Heres a comparison between [creep](https://github.com/romeovs/creep) and [scientifica](https://github.com/nerdypepper/scientifica)
+
+<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/creep_vs_scientifica.png">
 
 
 ## Whats different?
