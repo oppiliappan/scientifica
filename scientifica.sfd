@@ -42,7 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9494 47 14
+WinInfo: 0 47 14
 OnlyBitmaps: 1
 BeginChars: 65536 519
 
@@ -4272,8 +4272,8 @@ BDFChar: 18 50 5 0 3 0 6
 @#tpB5_/>(
 BDFChar: 19 51 5 0 3 0 6
 n.6^M&<L9"
-BDFChar: 20 52 5 0 3 0 5
-TV.tI+<UXa
+BDFChar: 20 52 5 0 3 0 6
+TV.sNn/rhR
 BDFChar: 21 53 5 0 3 0 6
 n:9F.&<L9"
 BDFChar: 22 54 5 0 3 0 6
