@@ -13,7 +13,7 @@ Most characters are just 4px wide, which is brilliant for small displays.
 
 Heres a comparison between [creep](https://github.com/romeovs/creep) and [scientifica](https://github.com/nerdypepper/scientifica)
 
-<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/creep_vs_scientifica.png">
+[![latestscreenie.png](https://s8.postimg.org/i2p0x699x/latestscreenie.png)](https://postimg.org/image/lz2ct5u9d/)
 
 
 ## Whats different?
@@ -23,9 +23,15 @@ Here's a few characters that recieved a revamp:
 
 `V, *, f, W, M, ~ `
 
+I have also added characters to the following unicode blocks:
 
-A full list of changed characters can be found [here](~/images/changes.png).
-
+ - Geometric Shapes 
+ - Arrows 
+ - Miscellaneous Technical 
+ - Miscellaneous Symbols
+ - Miscellaneous Mathematical Symbols-A
+ - Private Use Area
+ - Mathematical Operators
 
 I will be constantly adding glyphs to this font. **Keep a lookout.**
 
