@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1512641106
-ModificationTime: 1512641610
+ModificationTime: 1512642142
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,9 +42,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9360 39 14
+WinInfo: 39 39 14
 OnlyBitmaps: 1
-BeginChars: 65536 535
+BeginChars: 65536 548
 
 StartChar: space
 Encoding: 32 32 0
@@ -4315,10 +4315,115 @@ StartChar: shade
 Encoding: 9618 9618 534
 Width: 1000
 VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: dkshade
+Encoding: 9619 9619 535
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Uhungarumlaut
+Encoding: 368 368 536
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uhungarumlaut
+Encoding: 369 369 537
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Uogonek
+Encoding: 370 370 538
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uogonek
+Encoding: 371 371 539
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Tbar
+Encoding: 358 358 540
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: tbar
+Encoding: 359 359 541
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Utilde
+Encoding: 360 360 542
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: utilde
+Encoding: 361 361 543
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Umacron
+Encoding: 362 362 544
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: umacron
+Encoding: 363 363 545
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Ubreve
+Encoding: 364 364 546
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: ubreve
+Encoding: 365 365 547
+Width: 1000
+VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 11 535 9 2 1 romeovs
+BitmapFont: 11 548 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -5428,8 +5533,34 @@ z
 BDFChar: 532 9645 11 0 0 0 0
 z
 BDFChar: 533 9617 11 0 4 -2 8
+L`hKrL`hKrL`hKR
+BDFChar: 534 9618 11 0 4 -2 8
 W)0EhW)0EhW)0Dm
-BDFChar: 534 9618 11 0 0 0 0
-z
+BDFChar: 535 9619 11 0 4 -2 8
+W7\'$W7\'$W7\$K
+BDFChar: 536 368 11 0 3 0 8
+O8tB(OH>QcDu]k<
+BDFChar: 537 369 11 0 3 0 7
+:nRfMOH>QC
+BDFChar: 538 370 11 0 3 -2 6
+OH>QcOH=E(&-)\1
+BDFChar: 539 371 11 0 4 -2 5
+OH>QcODk1:
+BDFChar: 540 358 11 0 2 0 6
+i'9Omi'9O-
+BDFChar: 541 359 11 0 2 0 6
+5X=6mi'8Cb
+BDFChar: 542 360 11 0 3 0 8
+TMU0#OH>QcDu]k<
+BDFChar: 543 361 11 0 3 0 7
+:nRfMOH>QC
+BDFChar: 544 362 11 0 3 0 8
+?iZ:MOH>QcDu]k<
+BDFChar: 545 363 11 0 3 0 6
+?iZ:MOH=D]
+BDFChar: 546 364 11 0 3 0 8
+:`tj]OH>QcDu]k<
+BDFChar: 547 365 11 0 3 0 6
+:`tj]OH=D]
 EndBitmapFont
 EndSplineFont
