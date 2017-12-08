@@ -16,16 +16,18 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 283 -1418406114 3670069]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1512724123
-ModificationTime: 1512725076
+ModificationTime: 1512726151
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -42,9 +44,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 28 12
+WinInfo: 68 34 14
 OnlyBitmaps: 1
-BeginChars: 65536 599
+BeginChars: 65536 627
 
 StartChar: space
 Encoding: 32 32 0
@@ -4833,8 +4835,228 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: Emacron
+Encoding: 274 274 599
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Ebreve
+Encoding: 276 276 600
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Edotaccent
+Encoding: 278 278 601
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: emacron
+Encoding: 275 275 602
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: ebreve
+Encoding: 277 277 603
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: edotaccent
+Encoding: 279 279 604
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: scedilla
+Encoding: 351 351 605
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Eng
+Encoding: 330 330 606
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: eng
+Encoding: 331 331 607
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Omacron
+Encoding: 332 332 608
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Obreve
+Encoding: 334 334 609
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Ohungarumlaut
+Encoding: 336 336 610
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: omacron
+Encoding: 333 333 611
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: obreve
+Encoding: 335 335 612
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: ohungarumlaut
+Encoding: 337 337 613
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: OE
+Encoding: 338 338 614
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: oe
+Encoding: 339 339 615
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Jcircumflex
+Encoding: 308 308 616
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: jcircumflex
+Encoding: 309 309 617
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0136
+Encoding: 310 310 618
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0137
+Encoding: 311 311 619
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: kgreenlandic
+Encoding: 312 312 620
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Lacute
+Encoding: 313 313 621
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni013B
+Encoding: 315 315 622
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: lacute
+Encoding: 314 314 623
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni013C
+Encoding: 316 316 624
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: dotlessi
+Encoding: 305 305 625
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: longs
+Encoding: 383 383 626
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 599 9 2 1 romeovs
+BitmapFont: 11 627 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -5310,9 +5532,9 @@ BDFChar: 214 327 5 0 3 0 8
 BDFChar: 215 328 5 0 3 0 7
 :`obrOH>Qc
 BDFChar: 216 342 5 0 3 -2 6
-i/j&YTV.Ah0E;(Q
+i/j&YTV.B3J,fQL
 BDFChar: 217 343 5 0 3 -2 4
-i/iJ>J3^mM
+i/iJ>J3\Vb
 BDFChar: 218 344 11 0 3 0 8
 :a"\XOPle)O8o7\
 BDFChar: 219 345 11 0 3 0 8
@@ -5348,13 +5570,13 @@ TMU0#OH>QcDu]k<
 BDFChar: 234 361 11 0 3 0 7
 :nRfMOH>QC
 BDFChar: 235 362 11 0 3 0 8
-?iZ:MOH>QcDu]k<
+huJk#OH>QcDu]k<
 BDFChar: 236 363 11 0 3 0 6
-?iZ:MOH=D]
+huJk#OH=D]
 BDFChar: 237 364 11 0 3 0 8
 :`tj]OH>QcDu]k<
-BDFChar: 238 365 11 0 3 0 8
-:`o`<OH>QcDu]k<
+BDFChar: 238 365 11 0 3 0 7
+:`ob"OH>QC
 BDFChar: 239 366 5 0 3 0 8
 +Af;(OH>QcDu]k<
 BDFChar: 240 367 5 0 3 0 7
@@ -5368,7 +5590,7 @@ OH>QcOH=E(&-)\1
 BDFChar: 244 371 11 0 4 -2 5
 OH>QcODk1:
 BDFChar: 245 372 11 0 3 0 8
-+AdTMOH>RnO8o7\
+@#tAMOH>RnO8o7\
 BDFChar: 246 373 11 0 3 0 7
 +A`'"OHAsn
 BDFChar: 247 374 11 0 3 0 8
@@ -6075,5 +6297,61 @@ BDFChar: 597 301 5 0 2 0 7
 TKiLm5X7RW
 BDFChar: 598 303 5 0 2 -2 6
 5QJSb5X8_-^]4?7
+BDFChar: 599 274 5 0 3 0 8
+n,Vs.JA?\cn,NFg
+BDFChar: 600 276 5 0 3 0 8
+:a#7XJA?\cn,NFg
+BDFChar: 601 278 5 0 3 0 8
++9:n]JA?\cn,NFg
+BDFChar: 602 275 5 0 3 0 6
+n,QjXn:5HX
+BDFChar: 603 277 5 0 3 0 6
+:`s/-n:5HX
+BDFChar: 604 279 5 0 3 0 6
++95f2n:5HX
+BDFChar: 605 351 5 0 3 -2 4
+E.D=-i#lD-
+BDFChar: 606 330 11 0 3 -2 5
+T[8d^OH:#]
+BDFChar: 607 331 11 0 3 -2 4
+i/j%^O:WN7
+BDFChar: 608 332 5 0 3 0 8
+n,QjXOH>Qc?iU0,
+BDFChar: 609 334 5 0 3 0 8
+:`s/-OH>Qc?iU0,
+BDFChar: 610 336 5 0 3 0 8
+:nV3XOH>Qc?iU0,
+BDFChar: 611 333 5 0 3 0 6
+n,QjXOH<iM
+BDFChar: 612 335 5 0 3 0 7
+:`oaGOH>Q3
+BDFChar: 613 337 5 0 3 0 7
+:nRerOH>Q3
+BDFChar: 614 338 11 0 4 0 6
+GbC_>TV-N0
+BDFChar: 615 339 11 0 4 0 4
+Gc8-FGQ7^D
+BDFChar: 616 308 5 0 3 0 8
+@#tA-&.fD7Du]k<
+BDFChar: 617 309 5 0 2 -2 7
+5bJ*b+<VdL+@#o,
+BDFChar: 618 310 5 0 3 -2 6
+OJ'C^OH>PH?iU0,
+BDFChar: 619 311 5 0 3 -2 6
+J:N`S^n?c3?iU0,
+BDFChar: 620 312 11 0 3 0 5
+OHACnOH9GB
+BDFChar: 621 313 5 0 3 0 6
+J:N0#J:R+h
+BDFChar: 622 315 5 0 3 0 6
+J:N0#J:R+h
+BDFChar: 623 314 5 0 2 0 6
+^d(.M5X6Fl
+BDFChar: 624 316 5 0 2 -2 6
+^d(.M5X6GW^]4?7
+BDFChar: 625 305 5 0 2 0 4
+^d(.M+92BA
+BDFChar: 626 383 11 0 4 0 7
+!&-[R5X7S"
 EndBitmapFont
 EndSplineFont
