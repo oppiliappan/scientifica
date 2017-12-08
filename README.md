@@ -37,6 +37,22 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 
 
+
+## Screenshots
+
+### Dark background
+
+
+[![preview1.png](https://s2.postimg.org/4vo8snbw9/scientificajs.png)](https://postimg.org/image/toxstauwl/)
+
+### Light background
+
+
+You're kidding me right?
+
+
+
+
 ## Installation
 
 
