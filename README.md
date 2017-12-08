@@ -107,10 +107,24 @@ If not, read the [wiki](https://wiki.archlinux.org/index.php/fonts).
 
 
 
+
+## TODO
+
+Following agenda *may* be followed:
+
+ - Add Control Pictures
+ - Add all mathematical operators
+ - Get scientifica to work on windows
+ - Work on a bold version (Probably never)
+ - Add variants for `a, i, l, 1` etc.
+
+
+
+
 ## Credits
 
 Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs).
 
 Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
-Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/)
+Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/).
