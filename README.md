@@ -1,4 +1,4 @@
-<img src="https://github.com/NerdyPepper/scientifica/blob/master/images/heroimage.jpg">
+[![heroimage.png](https://s2.postimg.org/9qdcdg821/heroimage.png)](https://postimg.org/image/6jisttnlx/)
 
 # Scientifica
 

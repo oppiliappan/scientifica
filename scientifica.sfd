@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1512724123
-ModificationTime: 1512726151
+ModificationTime: 1512726898
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -44,9 +43,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 68 34 14
+WinInfo: 11160 45 14
 OnlyBitmaps: 1
-BeginChars: 65536 627
+BeginChars: 65536 628
 
 StartChar: space
 Encoding: 32 32 0
@@ -4708,6 +4707,7 @@ StartChar: uni0122
 Encoding: 290 290 582
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -4723,6 +4723,7 @@ StartChar: gdotaccent
 Encoding: 289 289 584
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -4730,6 +4731,7 @@ StartChar: uni0123
 Encoding: 291 291 585
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5045,6 +5047,7 @@ StartChar: dotlessi
 Encoding: 305 305 625
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5055,8 +5058,16 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni258F
+Encoding: 9615 9615 627
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 627 9 2 1 romeovs
+BitmapFont: 11 628 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -5974,7 +5985,7 @@ nF5r:
 BDFChar: 436 9210 11 0 3 0 3
 @.<Yn
 BDFChar: 437 9211 11 0 4 0 5
-+E498Li<=o
++<[V]Li<=o
 BDFChar: 438 9472 5 0 4 4 4
 p](9o
 BDFChar: 439 9474 5 2 2 -2 8
@@ -6234,7 +6245,7 @@ BDFChar: 565 61680 5 0 2 -1 5
 BDFChar: 566 285 11 0 3 -2 7
 @#tA-OH>QC&7>J<
 BDFChar: 567 286 5 0 3 0 8
-TKlnHJ:Okc?iU0,
+OC2IXJ:Okc?iU0,
 BDFChar: 568 341 11 0 3 0 7
 +@#qbOFVk3
 BDFChar: 569 340 11 0 3 0 8
@@ -6263,14 +6274,14 @@ BDFChar: 580 284 5 0 3 0 8
 @$"cXJ:Okc?iU0,
 BDFChar: 581 288 5 0 3 0 8
 5QG2RJ:Okc?iU0,
-BDFChar: 582 290 5 0 3 0 6
-@$#nhY`N5m
+BDFChar: 582 290 5 0 3 -2 6
+@$#nhY`N68?iU0,
 BDFChar: 583 287 11 0 3 -2 7
-:`oaWOH>QC&7>J<
+OC/'-OH>QC&7>J<
 BDFChar: 584 289 11 0 3 -2 6
-5QGbbOH=Dm?iU0,
+5QGbbOH=DmDu]k<
 BDFChar: 585 291 11 0 3 -2 7
-+@#pGOH>QC&7>J<
+&0LslOH>QC&9%UL
 BDFChar: 586 292 11 0 3 0 8
 @#tAMORS?nO8o7\
 BDFChar: 587 293 5 0 3 0 8
@@ -6283,8 +6294,8 @@ BDFChar: 590 296 5 0 3 0 8
 :nRgH5X7S"huE`W
 BDFChar: 591 298 5 0 2 0 8
 huM\#5X7S"huE`W
-BDFChar: 592 300 5 0 2 0 8
-TKqF#5X7S"huE`W
+BDFChar: 592 300 5 0 3 0 8
+OC7!35X7S"huE`W
 BDFChar: 593 302 5 0 3 -2 6
 i'9Om5X=6M0E;(Q
 BDFChar: 594 304 5 0 2 0 8
@@ -6293,20 +6304,20 @@ BDFChar: 595 297 5 0 3 0 7
 :nRg(5X7RW
 BDFChar: 596 299 5 0 2 0 6
 huLPX5X6Fl
-BDFChar: 597 301 5 0 2 0 7
-TKiLm5X7RW
+BDFChar: 597 301 5 0 3 0 7
+OC/((5X7RW
 BDFChar: 598 303 5 0 2 -2 6
 5QJSb5X8_-^]4?7
 BDFChar: 599 274 5 0 3 0 8
 n,Vs.JA?\cn,NFg
 BDFChar: 600 276 5 0 3 0 8
-:a#7XJA?\cn,NFg
+OC7R.JA?\cn,NFg
 BDFChar: 601 278 5 0 3 0 8
 +9:n]JA?\cn,NFg
 BDFChar: 602 275 5 0 3 0 6
 n,QjXn:5HX
-BDFChar: 603 277 5 0 3 0 6
-:`s/-n:5HX
+BDFChar: 603 277 5 0 3 0 7
+OC/&rORRd>
 BDFChar: 604 279 5 0 3 0 6
 +95f2n:5HX
 BDFChar: 605 351 5 0 3 -2 4
@@ -6351,7 +6362,9 @@ BDFChar: 624 316 5 0 2 -2 6
 ^d(.M5X6GW^]4?7
 BDFChar: 625 305 5 0 2 0 4
 ^d(.M+92BA
-BDFChar: 626 383 11 0 4 0 7
-!&-[R5X7S"
+BDFChar: 626 383 11 0 3 0 6
+0L3E=5X7R7
+BDFChar: 627 9615 11 0 0 -2 8
+J:N0#J:N0#J:N.M
 EndBitmapFont
 EndSplineFont
