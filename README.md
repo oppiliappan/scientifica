@@ -11,7 +11,7 @@ of minor tweaks to improve readablity (*a matter of taste of course*).
 
 Most characters are just 4px wide, which is brilliant for small displays.
 
-Heres a comparison between [creep](https://github.com/romeovs/creep) and [scientifica](https://github.com/nerdypepper/scientifica)
+Here's a comparison between [creep](https://github.com/romeovs/creep) and [scientifica](https://github.com/nerdypepper/scientifica).
 
 [![latestscreenie.png](https://s8.postimg.org/i2p0x699x/latestscreenie.png)](https://postimg.org/image/lz2ct5u9d/)
 
@@ -32,9 +32,9 @@ I have also added characters to the following unicode blocks:
  - Miscellaneous Mathematical Symbols-A
  - Private Use Area
  - Mathematical Operators
+ - Box Drawings
 
 I will be constantly adding glyphs to this font. **Keep a lookout.**
-
 
 
 
@@ -134,3 +134,5 @@ Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) b
 Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
 Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/).
+
+Thanks to the creators of [Font Forge](https://fontforge.github.io/en-US/) for, well, creating fontforge.
