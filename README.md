@@ -16,7 +16,7 @@ Heres a comparison between [creep](https://github.com/romeovs/creep) and [scient
 [![latestscreenie.png](https://s8.postimg.org/i2p0x699x/latestscreenie.png)](https://postimg.org/image/lz2ct5u9d/)
 
 
-## Whats different?
+## What's different?
 
 
 Here's a few characters that recieved a revamp:
@@ -42,8 +42,14 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 ### Dark background
 
+Scientifica in the wild:
 
 [![preview1.png](https://s2.postimg.org/4vo8snbw9/scientificajs.png)](https://postimg.org/image/toxstauwl/)
+
+
+Scientifica now has most box drawing glyphs as well!
+
+[![boxx.png](https://s17.postimg.org/5cimzpx2n/boxx.png)](https://postimg.org/image/igo7cep4b/)
 
 ### Light background
 
