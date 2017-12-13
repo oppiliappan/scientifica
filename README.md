@@ -51,6 +51,11 @@ Scientifica now has most box drawing glyphs as well!
 
 [![boxx.png](https://s17.postimg.org/5cimzpx2n/boxx.png)](https://postimg.org/image/igo7cep4b/)
 
+
+Latin accents too!
+
+[![polski.png](https://s33.postimg.org/a4se02ayn/polski.png)](https://postimg.org/image/p0qx7nmd7/)
+
 ### Light background
 
 
