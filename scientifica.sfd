@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1513152887
-ModificationTime: 1513259308
+ModificationTime: 1513614607
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 476054 238026 158684 0 1048576 158684 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 781
+BeginChars: 65536 784
 
 StartChar: space
 Encoding: 32 32 0
@@ -6296,8 +6296,32 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni0218
+Encoding: 536 536 781
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni021A
+Encoding: 538 538 782
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni021B
+Encoding: 539 539 783
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 781 9 2 1 romeovs
+BitmapFont: 11 784 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -7902,5 +7926,11 @@ BDFChar: 779 9483 11 1 2 -2 8
 ^q]rc^];0c!5QAM
 BDFChar: 780 527 11 0 3 0 7
 @#t@rOH>Q3
+BDFChar: 781 536 5 0 3 -2 6
+@$#nH&<L9B5QCca
+BDFChar: 782 538 5 0 2 -2 6
+i'9Om5X7S"J,fQL
+BDFChar: 783 539 5 0 2 -2 6
+5X=6m5X6G75QCca
 EndBitmapFont
 EndSplineFont
