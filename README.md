@@ -21,7 +21,7 @@ Here's a comparison between [creep](https://github.com/romeovs/creep) and [scien
 
 Here's a few characters that recieved a revamp:
 
-`V, *, f, W, M, ~ `
+`V, *, f, W, M, ~, & `
 
 I have also added characters to the following unicode blocks:
 
