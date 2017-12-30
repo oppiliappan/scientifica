@@ -46,7 +46,7 @@ AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 53 15
 OnlyBitmaps: 1
-BeginChars: 65536 780
+BeginChars: 65536 788
 
 StartChar: space
 Encoding: 32 32 0
@@ -6287,8 +6287,72 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni0215
+Encoding: 533 533 780
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0214
+Encoding: 532 532 781
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0213
+Encoding: 531 531 782
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0210
+Encoding: 528 528 783
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0211
+Encoding: 529 529 784
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni020E
+Encoding: 526 526 785
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni020D
+Encoding: 525 525 786
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni020C
+Encoding: 524 524 787
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 781 9 2 1 romeovs
+BitmapFont: 11 789 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -6337,11 +6401,11 @@ BDFChar: 1 33 5 2 2 0 6
 J:N0#J,k*"
 BDFChar: 2 34 5 1 3 4 6
 TV.qX
-BDFChar: 3 35 5 0 4 0 4
+BDFChar: 3 35 5 0 4 1 5
 ;#!l^:]LIq
 BDFChar: 4 36 5 0 4 0 6
 +F'Pu..A>Z
-BDFChar: 5 37 5 0 3 0 3
+BDFChar: 5 37 5 0 3 1 4
 O<?fM
 BDFChar: 6 38 5 0 4 0 6
 @"=>`OH=,U
@@ -6555,8 +6619,8 @@ BDFChar: 110 175 5 0 3 6 6
 n,NFg
 BDFChar: 111 176 5 1 3 4 6
 5bL@B
-BDFChar: 112 177 5 0 4 0 4
-!$H5'Du]k<
+BDFChar: 112 177 5 -1 4 0 5
+&.j4#&:=HX
 BDFChar: 113 178 5 1 3 3 6
 ^`Yo#
 BDFChar: 114 179 5 1 3 3 6
@@ -7891,5 +7955,21 @@ BDFChar: 778 9596 11 0 4 3 5
 3;>H5
 BDFChar: 779 9598 11 0 4 3 5
 i:u41
+BDFChar: 780 533 11 0 3 0 7
+TMPWMOH>QC
+BDFChar: 781 532 11 0 3 0 8
+TMPWMOH>QcDu]k<
+BDFChar: 782 531 11 0 3 0 7
+@#tBHOFVk3
+BDFChar: 783 528 11 0 3 0 8
+TMPXHOPle)O8o7\
+BDFChar: 784 529 11 0 3 0 7
+TMPXHOFVk3
+BDFChar: 785 526 11 0 3 0 8
+@$"cXOH>Qc?iU0,
+BDFChar: 786 525 11 0 3 0 7
+TMPVrOH>Q3
+BDFChar: 787 524 11 0 3 0 8
+TMT$XOH>Qc?iU0,
 EndBitmapFont
 EndSplineFont
