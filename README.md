@@ -44,17 +44,17 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 Scientifica in the wild:
 
-[![preview.png](https://0x0.st/sPpq.png)
+![preview.png](https://0x0.st/sPpq.png)
 
 
 Scientifica now has most box drawing glyphs as well!
 
-[![boxx.png](https://0x0.st/sPpP.png)
+![boxx.png](https://0x0.st/sPpP.png)
 
 
 Latin, Polish, Solvakian, French, German accents included!
 
-[![polski.png](https://0x0.st/sPpZ.png)
+![polski.png](https://0x0.st/sPpZ.png)
 
 ### Light background
 
