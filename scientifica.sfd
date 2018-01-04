@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1513847806
-ModificationTime: 1513847806
+ModificationTime: 1515043127
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,9 +44,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 53 15
+WinInfo: 9593 53 15
 OnlyBitmaps: 1
-BeginChars: 65536 788
+BeginChars: 65536 791
 
 StartChar: space
 Encoding: 32 32 0
@@ -6351,8 +6351,31 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: circlemultiply
+Encoding: 8855 8855 788
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2717
+Encoding: 10007 10007 789
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2718
+Encoding: 10008 10008 790
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 789 9 2 1 romeovs
+BitmapFont: 11 791 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -7690,9 +7713,9 @@ BDFChar: 645 9579 11 0 4 -2 8
 BDFChar: 646 9580 11 0 4 -2 8
 :f(!@!8(+E:f'sg
 BDFChar: 647 9581 11 2 4 -2 4
-@).;CJ:N.M
+@"<cXJ:N.M
 BDFChar: 648 9582 11 0 2 -2 4
-^gJ9-+<Vd,
+^`XaB+<Vd,
 BDFChar: 649 9583 11 0 2 4 8
 +<VdL^]4?7
 BDFChar: 650 9584 11 2 4 4 8
@@ -7827,8 +7850,8 @@ BDFChar: 714 10524 5 0 4 0 4
 5bM5P5QCca
 BDFChar: 715 11104 5 0 3 0 7
 J=uD)T\t?N
-BDFChar: 716 11105 5 0 3 0 7
-J:N1.?r0Zr
+BDFChar: 716 11105 5 0 4 0 7
+J:N0#kVst=
 BDFChar: 717 11106 5 0 4 0 7
 ?pMM(=O7Tr
 BDFChar: 718 11108 5 0 3 0 6
@@ -7971,5 +7994,11 @@ BDFChar: 786 525 11 0 3 0 7
 TMPVrOH>Q3
 BDFChar: 787 524 11 0 3 0 8
 TMT$XOH>Qc?iU0,
+BDFChar: 788 8855 11 0 0 0 0
+z
+BDFChar: 789 10007 11 0 3 0 7
+&.kLB?so(X
+BDFChar: 790 10008 11 0 3 0 7
+&.kM-?so(X
 EndBitmapFont
 EndSplineFont

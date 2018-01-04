@@ -1,4 +1,4 @@
-[![heroimage.png](https://s2.postimg.org/9qdcdg821/heroimage.png)](https://postimg.org/image/6jisttnlx/)
+![heroimage.png](https://0x0.st/sPD9.png)
 
 # Scientifica
 
@@ -10,10 +10,6 @@ Scientifica is largely based on [creep](https://github.com/romeovs/creep), with 
 of minor tweaks to improve readablity (*a matter of taste of course*).
 
 Most characters are just 4px wide, which is brilliant for small displays.
-
-Here's a comparison between [creep](https://github.com/romeovs/creep) and [scientifica](https://github.com/nerdypepper/scientifica).
-
-[![latestscreenie.png](https://s8.postimg.org/i2p0x699x/latestscreenie.png)](https://postimg.org/image/lz2ct5u9d/)
 
 
 ## What's different?
@@ -125,18 +121,17 @@ Following agenda *may* be followed:
 
  - Add Control Pictures
  - Add all mathematical operators
- - Get scientifica to work on windows
+ - ~~Get scientifica to work on windows~~ Done!
  - Work on a bold version (Probably never)
  - Add variants for `a, i, l, 1` etc.
 
 
 
-
 ## Credits
 
-Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs).
+Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by @romeovs.
 
-Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko). Check out his version [here](https://github.com/raymond-w-ko/creep2).
+Creep has been optimized for linux terminals by @raymond-w-ko. Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
 Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/).
 
