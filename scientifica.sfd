@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -44,9 +43,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9593 53 15
+WinInfo: 8533 53 15
 OnlyBitmaps: 1
-BeginChars: 65536 791
+BeginChars: 65536 801
 
 StartChar: space
 Encoding: 32 32 0
@@ -6374,8 +6373,88 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: infinity
+Encoding: 8734 8734 791
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: proportional
+Encoding: 8733 8733 792
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: union
+Encoding: 8746 8746 793
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: intersection
+Encoding: 8745 8745 794
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: equivalence
+Encoding: 8801 8801 795
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni227A
+Encoding: 8826 8826 796
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: approxequal
+Encoding: 8776 8776 797
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: dotmath
+Encoding: 8901 8901 798
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni22C6
+Encoding: 8902 8902 799
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni22C4
+Encoding: 8900 8900 800
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 791 9 2 1 romeovs
+BitmapFont: 11 801 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -6642,8 +6721,8 @@ BDFChar: 110 175 5 0 3 6 6
 n,NFg
 BDFChar: 111 176 5 1 3 4 6
 5bL@B
-BDFChar: 112 177 5 -1 4 0 5
-&.j4#&:=HX
+BDFChar: 112 177 5 0 4 0 5
++<^G%+SYp:
 BDFChar: 113 178 5 1 3 3 6
 ^`Yo#
 BDFChar: 114 179 5 1 3 3 6
@@ -8000,5 +8079,25 @@ BDFChar: 789 10007 11 0 3 0 7
 &.kLB?so(X
 BDFChar: 790 10008 11 0 3 0 7
 &.kM-?so(X
+BDFChar: 791 8734 11 0 4 0 3
+:oL<h
+BDFChar: 792 8733 11 0 3 0 3
+:nXIX
+BDFChar: 793 8746 11 0 3 0 4
+OH>Qc?iU0,
+BDFChar: 794 8745 11 0 3 0 4
+@$$J3O8o7\
+BDFChar: 795 8801 11 0 3 0 4
+n,VqXn,NFg
+BDFChar: 796 8826 11 3 3 0 0
+z
+BDFChar: 797 8776 11 0 3 0 4
+:nRebTE"rl
+BDFChar: 798 8901 11 1 1 2 2
+J,fQL
+BDFChar: 799 8902 11 0 2 1 3
+TKo.M
+BDFChar: 800 8900 11 0 2 1 3
+5bL@B
 EndBitmapFont
 EndSplineFont

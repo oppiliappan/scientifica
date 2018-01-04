@@ -128,9 +128,9 @@ Following agenda *may* be followed:
 
 ## Credits
 
-Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by @romeovs.
+Most Basic Latin characters are from [creep](https://github.com/romeovs/creep) by [romeovs](https://github.com/romeovs/).
 
-Creep has been optimized for linux terminals by @raymond-w-ko. Check out his version [here](https://github.com/raymond-w-ko/creep2).
+Creep has been optimized for linux terminals by [raymond-w-ko](https://github.com/raymond-w-ko/). Check out his version [here](https://github.com/raymond-w-ko/creep2).
 
 Some characters are based on [Lemon](http://artwizaleczapka.sourceforge.net/).
 
