@@ -68,26 +68,25 @@ You're kidding me right?
 
  1. Enable bitmap fonts
  ```shell
- $ cd /etc/fonts/conf.d/ 
- $ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf
- $ sudo dpkg-reconfigure fontconfig
+ cd /etc/fonts/conf.d/
+ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf
+ sudo dpkg-reconfigure fontconfig
   ```
 
  2. Get Scientifica
  ```shell
- $ cd ~ 
- $ git clone https://github.com/nerdypepper/scientifica
+ cd ~ 
+ git clone https://github.com/nerdypepper/scientifica
  ```
 
  3. Copy it to the right folder
  ```shell 
- $ cp ~/scientifica/scientifica-11.bdf ~/.local/share/fonts/
+ cp ~/scientifica/scientifica-11.bdf ~/.local/share/fonts/
  ```
 
  4. Use it. `rxvt` for example:
- ```shell
- URxvt.font:xft:scientifica:size=11
- ```
+
+ `URxvt.font:xft:scientifica:size=11`
 
 
 ### MacOS
@@ -95,8 +94,8 @@ You're kidding me right?
 
  1. Get Scientifica
  ```shell
- $ cd ~
- $ git clone https://github.com/nerdypepper/scientifica
+ cd ~
+ git clone https://github.com/nerdypepper/scientifica
  ```
 
  2. Open the `.dfont` in the Font Book.app (This may not always be up to date. Try downloading the `.bdf` and exporting it to `.dfont` through fontforge)
