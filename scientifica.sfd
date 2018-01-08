@@ -44,9 +44,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 39 15
+WinInfo: 10023 39 15
 OnlyBitmaps: 1
-BeginChars: 1114112 854
+BeginChars: 1114112 858
 
 StartChar: space
 Encoding: 32 32 0
@@ -6877,8 +6877,40 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni276F
+Encoding: 10095 10095 854
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni276E
+Encoding: 10094 10094 855
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2770
+Encoding: 10096 10096 856
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2771
+Encoding: 10097 10097 857
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 855 9 2 1 romeovs
+BitmapFont: 11 858 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -6935,8 +6967,8 @@ BDFChar: 5 37 5 0 3 1 4
 O<?fM
 BDFChar: 6 38 5 0 4 0 6
 @"=>`OH=,U
-BDFChar: 7 39 5 1 2 4 6
-5X7R7
+BDFChar: 7 39 5 2 2 4 6
+J:N.M
 BDFChar: 8 40 5 0 3 -1 7
 0L1/=J:N/80E;(Q
 BDFChar: 9 41 5 0 3 -1 7
@@ -8629,5 +8661,13 @@ BDFChar: 852 10469 11 0 2 -2 3
 J,fSB!2';l
 BDFChar: 853 10468 11 0 2 -2 0
 TE(Vb
+BDFChar: 854 10095 11 0 4 0 6
+^gJi50OVZr
+BDFChar: 855 10094 11 0 4 0 6
+^gJi50OVZr
+BDFChar: 856 10096 11 0 4 0 6
+3,mfki,CXU
+BDFChar: 857 10097 11 0 4 0 6
+i,CXm3,mdU
 EndBitmapFont
 EndSplineFont
