@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 10023 39 15
+WinInfo: 0 39 15
 OnlyBitmaps: 1
 BeginChars: 1114112 858
 
@@ -6910,7 +6910,7 @@ Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 11 858 9 2 1 romeovs
+BitmapFont: 11 859 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -6973,13 +6973,13 @@ BDFChar: 8 40 5 0 3 -1 7
 0L1/=J:N/80E;(Q
 BDFChar: 9 41 5 0 3 -1 7
 ^`X1"&.fBq^]4?7
-BDFChar: 10 42 5 0 4 0 4
+BDFChar: 10 42 5 0 4 1 5
 :a#NU:]LIq
-BDFChar: 11 43 5 0 4 0 4
+BDFChar: 11 43 5 0 4 1 5
 +<^G%+92BA
 BDFChar: 12 44 5 1 2 -1 1
 5X9i"
-BDFChar: 13 45 5 0 3 2 2
+BDFChar: 13 45 5 0 3 3 3
 n,NFg
 BDFChar: 14 46 5 2 2 0 0
 J,fQL
@@ -7009,11 +7009,11 @@ BDFChar: 26 58 5 1 1 1 3
 J,k*"
 BDFChar: 27 59 5 1 2 -1 4
 5QCdL5_&h7
-BDFChar: 28 60 5 0 2 0 4
+BDFChar: 28 60 5 0 2 1 5
 +@(HB+92BA
-BDFChar: 29 61 5 0 3 1 3
+BDFChar: 29 61 5 0 3 2 4
 n,VqX
-BDFChar: 30 62 5 0 2 0 4
+BDFChar: 30 62 5 1 3 1 5
 J3Y5BJ,fQL
 BDFChar: 31 63 5 0 3 0 6
 @#tpB5QF%L
