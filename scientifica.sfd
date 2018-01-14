@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 10101 39 15
+WinInfo: 0 39 15
 OnlyBitmaps: 1
 BeginChars: 1114112 957
 
@@ -7702,7 +7702,7 @@ Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 11 957 9 2 1 romeovs
+BitmapFont: 11 958 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-romeovs-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -7784,7 +7784,7 @@ BDFChar: 17 49 5 1 3 0 6
 BDFChar: 18 50 5 0 3 0 6
 @#tpB5_/>(
 BDFChar: 19 51 5 0 3 0 6
-n.6^M&<L9"
+n.79]&<L9"
 BDFChar: 20 52 5 0 3 0 6
 TV.sNn/rhR
 BDFChar: 21 53 5 0 3 0 6
@@ -7809,8 +7809,8 @@ BDFChar: 30 62 5 1 3 1 5
 J3Y5BJ,fQL
 BDFChar: 31 63 5 0 3 0 6
 @#tpB5QF%L
-BDFChar: 32 64 5 0 3 0 5
-n;slYJFEO=
+BDFChar: 32 64 5 0 3 0 6
+@$%UsY^gZm
 BDFChar: 33 65 5 0 3 0 6
 @$$K>OH>P(
 BDFChar: 34 66 5 0 3 0 6
@@ -7820,7 +7820,7 @@ BDFChar: 35 67 5 0 3 0 6
 BDFChar: 36 68 5 0 3 0 6
 i/j%^OHAB#
 BDFChar: 37 69 5 0 3 0 6
-n:6&)J:R+h
+n:6&IJ:R+h
 BDFChar: 38 70 5 0 3 0 6
 n:6&)J:N.M
 BDFChar: 39 71 5 0 3 0 6
@@ -7869,8 +7869,8 @@ BDFChar: 60 92 5 0 3 -1 6
 J:KmM+<V4,
 BDFChar: 61 93 5 1 2 -1 7
 ^d(.M5X7S"^]4?7
-BDFChar: 62 94 5 1 3 5 6
-5bJ)W
+BDFChar: 62 94 5 0 4 4 6
++Adjo
 BDFChar: 63 95 5 0 3 0 0
 n,NFg
 BDFChar: 64 96 5 1 2 5 6
@@ -7933,8 +7933,8 @@ BDFChar: 92 124 5 2 2 0 6
 J:N0#J:N.M
 BDFChar: 93 125 5 0 4 -1 7
 ^`XaB(a'qD^]4?7
-BDFChar: 94 126 5 0 4 1 4
-5cCUm
+BDFChar: 94 126 5 0 3 2 3
+:nRdg
 BDFChar: 95 160 5 0 0 0 0
 z
 BDFChar: 96 161 5 2 2 0 7
