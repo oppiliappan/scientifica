@@ -98,7 +98,8 @@ You're kidding me right?
  git clone https://github.com/nerdypepper/scientifica
  ```
 
- 2. Open the `.dfont` in the Font Book.app (This may not always be up to date. Try downloading the `.bdf` and exporting it to `.dfont` through fontforge)
+ 2. Open the `.dfont` in the Font Book.app  
+ (This may not always be up to date. Try downloading the `.bdf` and exporting it to `.dfont` through fontforge)
 
  3. You are done, I guess ... dont have a Mac to test it out.
 
