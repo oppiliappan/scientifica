@@ -3,13 +3,14 @@
 # Scientifica
 
 
-Tall and condensed bitmap font for geeks.
+Tall and condensed bitmap font for geeks.  
+**Now in bold**
 
 
 Scientifica is largely based on [creep](https://github.com/romeovs/creep), with a number
 of minor tweaks to improve readablity (*a matter of taste of course*).
 
-Most characters are just 4px wide, which is brilliant for small displays.
+Most characters are just 4px wide, which is brilliant for low dpi displays.
 
 
 ## What's different?
@@ -17,7 +18,7 @@ Most characters are just 4px wide, which is brilliant for small displays.
 
 Here's a few characters that recieved a revamp:
 
-`V, *, f, W, M, ~, & `
+`V, *, f, W, M, ~, & , i, t, a`
 
 I have also added characters to the following unicode blocks:
 
@@ -122,7 +123,7 @@ Following agenda *may* be followed:
  - Add Control Pictures
  - Add all mathematical operators
  - ~~Get scientifica to work on windows~~ Done!
- - Work on a bold version (Probably never)
+ - ~~Work on a bold version (Probably never)~~ Done!
  - Add variants for `a, i, l, 1` etc.
 
 
