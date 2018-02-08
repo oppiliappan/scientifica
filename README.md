@@ -64,7 +64,7 @@ You're kidding me right?
 ## Installation
 
 
-### Ubuntu
+### Linux
 
 
  1. Enable bitmap fonts
@@ -80,9 +80,10 @@ You're kidding me right?
  git clone https://github.com/nerdypepper/scientifica
  ```
 
- 3. Copy it to the right folder
- ```shell 
- cp ~/scientifica/scientifica-11.bdf ~/.local/share/fonts/
+ 3. Symlink it to the right folder
+ ```shell
+ln -fs ~/scientifica/regular/scientifica-11.bdf ~/.local/share/fonts/scientifica-11.bdf
+ln -fs ~/scientifica/bold/scientificaBold-11.bdf ~/.local/share/fonts/scientificaBold-11.bdf
  ```
 
  4. Use it. `rxvt` for example:
@@ -107,21 +108,13 @@ You're kidding me right?
  4. Submit an issue in case you face any problems, or a pull request if you would like to correct me.
 
 
-### Arch
-
-You probably already know how to install them.
-
-If not, read the [wiki](https://wiki.archlinux.org/index.php/fonts).
-
-
-
 
 ## TODO
 
 Following agenda *may* be followed:
 
  - Add Control Pictures
- - Add all mathematical operators
+ - ~~Add all mathematical operators~~ (Almost) Done!
  - ~~Get scientifica to work on windows~~ Done!
  - ~~Work on a bold version (Probably never)~~ Done!
  - Add variants for `a, i, l, 1` etc.

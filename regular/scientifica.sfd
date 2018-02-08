@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1513847806
-ModificationTime: 1517737757
+ModificationTime: 1518085425
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -45,11 +45,11 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 44 15
+WinInfo: 8492 44 15
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 1032
+BeginChars: 1114112 1040
 
 StartChar: space
 Encoding: 32 32 0
@@ -8301,8 +8301,68 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni20A8
+Encoding: 8360 8360 1032
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni20AA
+Encoding: 8362 8362 1033
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni21CB
+Encoding: 8651 8651 1034
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2326
+Encoding: 8998 8998 1035
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2327
+Encoding: 8999 8999 1036
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2573
+Encoding: 9587 9587 1037
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uni2572
+Encoding: 9586 9586 1038
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: H18551
+Encoding: 9643 9643 1039
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 1033 9 2 1 romeovs
+BitmapFont: 11 1041 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -8401,11 +8461,11 @@ BDFChar: 26 58 5 1 1 1 3
 J,k*"
 BDFChar: 27 59 5 1 2 -1 4
 5QCdL5_&h7
-BDFChar: 28 60 5 0 2 1 5
+BDFChar: 28 60 5 0 2 0 4
 +@(HB+92BA
 BDFChar: 29 61 5 0 3 1 3
 n,VqX
-BDFChar: 30 62 5 1 3 1 5
+BDFChar: 30 62 5 1 3 0 4
 J3Y5BJ,fQL
 BDFChar: 31 63 5 0 3 0 6
 @#tpB5QF%L
@@ -9169,8 +9229,8 @@ BDFChar: 410 953 5 0 2 0 4
 ^d(.M+92BA
 BDFChar: 411 954 5 0 2 0 4
 TYR4nTE"rl
-BDFChar: 412 955 5 0 3 0 6
-5bK5B:lpb=
+BDFChar: 412 955 5 0 4 0 6
+^`Xar:l'o-
 BDFChar: 413 956 5 0 4 -2 4
 OH>Qcpjdkp
 BDFChar: 414 957 5 0 3 0 5
@@ -9342,18 +9402,18 @@ J:N0cJ,fQL
 BDFChar: 497 8643 11 0 1 0 4
 5X7TM5QCca
 BDFChar: 498 8644 11 0 4 1 5
-&GQ8#5QCca
+&GT)s5QCca
 BDFChar: 499 8646 11 0 4 1 5
-5kk?S&-)\1
+5kn1N&-)\1
 BDFChar: 500 8647 11 0 4 1 5
 5kmV>5QCca
 BDFChar: 501 8649 11 0 4 1 5
 &GQh3&-)\1
-BDFChar: 502 8656 5 0 4 1 5
+BDFChar: 502 8656 5 0 4 0 4
 +F&E]+92BA
 BDFChar: 503 8657 5 0 4 0 5
 +Ag]e:f%,l
-BDFChar: 504 8658 5 0 4 1 5
+BDFChar: 504 8658 5 0 4 0 4
 +Rf[++92BA
 BDFChar: 505 8659 5 0 4 -1 4
 :f(!@:`o`<
@@ -9391,12 +9451,12 @@ BDFChar: 521 8719 5 0 3 0 5
 n;r`nOH9GB
 BDFChar: 522 8720 5 0 3 0 5
 OH>QcORN5M
-BDFChar: 523 8721 5 0 3 0 5
-n;on#ORN5M
+BDFChar: 523 8721 5 0 3 0 6
+n;omX5`kI8
 BDFChar: 524 8722 5 0 3 2 2
 n,NFg
-BDFChar: 525 8723 5 0 2 0 4
-huH%#5QCca
+BDFChar: 525 8723 5 0 4 0 5
+p])H3+<UXa
 BDFChar: 526 8724 11 0 4 0 5
 +93PZ+<UXa
 BDFChar: 527 8728 11 0 3 1 4
@@ -9679,8 +9739,8 @@ BDFChar: 665 9633 5 0 3 1 4
 n;rb$
 BDFChar: 666 9634 5 0 3 1 4
 @$$IX
-BDFChar: 667 9642 5 1 2 2 3
-^q]pM
+BDFChar: 667 9642 5 0 3 1 4
+nF5r:
 BDFChar: 668 9650 5 0 4 1 3
 +E7)U
 BDFChar: 669 9651 5 0 4 1 3
@@ -9733,10 +9793,10 @@ BDFChar: 692 9829 5 0 4 0 4
 ;#'g)+92BA
 BDFChar: 693 9833 11 0 1 0 7
 5X7S"5X<-#
-BDFChar: 694 9834 11 0 2 0 7
-?pHtB5X<-#
+BDFChar: 694 9834 11 0 3 0 7
+5[[DR5X<-#
 BDFChar: 695 9835 11 0 4 0 7
-89dZr84_Cc
+5\O7j8BBF#
 BDFChar: 696 9836 11 0 4 0 7
 89d[M84_Cc
 BDFChar: 697 10003 5 0 4 0 5
@@ -10391,7 +10451,7 @@ BDFChar: 1021 8743 11 0 4 0 5
 +<XKWLkl$2
 BDFChar: 1022 8744 11 0 4 0 5
 Lknl(+<UXa
-BDFChar: 1023 8771 11 0 3 1 4
+BDFChar: 1023 8771 11 0 3 2 5
 :nRgX
 BDFChar: 1024 9478 11 2 2 -2 8
 J:N.MJ:N.MJ:N.M
@@ -10409,5 +10469,21 @@ BDFChar: 1030 9715 11 0 4 0 4
 po(]Yp](9o
 BDFChar: 1031 9830 11 0 4 0 4
 +E7*p+92BA
+BDFChar: 1032 8360 11 0 3 0 7
+n.>(#i'8Cr
+BDFChar: 1033 8362 11 0 4 0 6
+kbtG9W2R3+
+BDFChar: 1034 8651 11 0 4 0 6
++@,]%p^ePJ
+BDFChar: 1035 8998 11 0 0 0 0
+z
+BDFChar: 1036 8999 11 0 0 0 0
+z
+BDFChar: 1037 9587 11 0 0 0 0
+z
+BDFChar: 1038 9586 11 0 0 0 0
+z
+BDFChar: 1039 9643 11 0 3 1 4
+n;rb$
 EndBitmapFont
 EndSplineFont
