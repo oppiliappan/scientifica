@@ -1,30 +1,32 @@
-![heroimage.png](https://0x0.st/sq0b.png)
+![heroimage.png](https://0x0.st/scvV.png)
 
 # Scientifica
 
 
 Tall and condensed bitmap font for geeks.  
-**Now in bold**
+**Now with a bold variant!**
 
 
 Scientifica is largely based on [creep](https://github.com/romeovs/creep), with a number
 of minor tweaks to improve readablity (*a matter of taste of course*).
 
-Most characters are just 4px wide, which is brilliant for low dpi displays.
+Most characters are just 4px wide, which is brilliant for low dpi(90-120) displays.
 
 
 ## What's different?
 
 
+Scientifica now has a **bold** variant too!
+
 Here's a few characters that recieved a revamp:
 
-`V, *, f, W, M, ~, & , i, t, a`
+`V, *, f, W, M, ~, & , i, t, a, (), [], {}`
 
 I have also added characters to the following unicode blocks:
 
- - Geometric Shapes 
- - Arrows 
- - Miscellaneous Technical 
+ - Geometric Shapes
+ - Arrows
+ - Miscellaneous Technical
  - Miscellaneous Symbols
  - Miscellaneous Mathematical Symbols-A
  - Private Use Area
@@ -41,7 +43,9 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 Scientifica in the wild:
 
-![preview.png](https://0x0.st/sPpq.png)
+![preview.png](https://0x0.st/scvW.png)
+
+![scientificacpp.png](https://0x0.st/scvO.png)
 
 
 Scientifica now has most box drawing glyphs as well!
@@ -51,14 +55,28 @@ Scientifica now has most box drawing glyphs as well!
 
 Latin, Polish, Solvakian, French, German accents included!
 
-![polski.png](https://0x0.st/sPpZ.png)
+![polski.png](https://0x0.st/scvJ.png)
+
+
+Powerline glyphs
+
+![scientificapowerline.png](https://0x0.st/scvy.png)
+
+
+Unicode Python:
+
+![scientificapyligs.png](https://0x0.st/scvt.png)
+
+
+Unicode C++ (Ligatures included)
+
+![scientificaligs.png](https://0x0.st/scv4.png)
+
 
 ### Light background
 
 
 You're kidding me right?
-
-
 
 
 ## Installation
