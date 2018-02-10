@@ -50,7 +50,7 @@ Scientifica in the wild:
 
 Scientifica now has most box drawing glyphs as well!
 
-![boxx.png](https://0x0.st/sPpP.png)
+![boxx.png](https://0x0.st/scEZ.png)
 
 
 Latin, Polish, Solvakian, French, German accents included!
