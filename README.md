@@ -60,7 +60,8 @@ Latin, Polish, Solvakian, French, German accents included!
 
 Powerline glyphs
 
-![scientificapowerline.png](https://0x0.st/scvy.png)
+![scientificapowerline1.png](https://0x0.st/scvy.png)
+![scientificapowerline2.png](https://0x0.st/scEC.png)
 
 
 Unicode Python:
