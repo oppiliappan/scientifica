@@ -1,4 +1,4 @@
-![heroimage.png](https://0x0.st/scvV.png)
+![heroimage.png](https://0x0.st/scCW.png)
 
 # Scientifica
 
