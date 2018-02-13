@@ -3,7 +3,7 @@
 
 
 " set correct conceal
-set conceallevel=1
+setlocal conceallevel=1
 
 " lambda's
 syntax match hsLambda "\\" conceal cchar=λ
