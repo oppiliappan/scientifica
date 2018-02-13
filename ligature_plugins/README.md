@@ -1,4 +1,4 @@
-# Ligatures and Unicode substitution
+# Ligature and Unicode substitution
 
 These features are supported *in vim only*.
 
@@ -23,7 +23,7 @@ Symlink the required vim plugins to
  done
  ```
 
-Haskell in vim with scientifica:
+Haskell in vim with scientifica:  
 ![haskell_ligs](https://0x0.st/sT8a.png)
 
 Credits go to [romeovs](https://github.com/romeovs/) for the haskell plugin.  
