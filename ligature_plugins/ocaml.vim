@@ -20,11 +20,6 @@ syntax match ocamlArrowH  /-\@<=>/   contained containedin=ocamlArrow conceal cc
 syntax match ocamlArrow   /<\ze-/    contains=ocamlArrowM,ocamlArrowH
 syntax match ocamlArrowH  /</        contained containedin=ocamlArrow conceal cchar=←
 
-" =>
-syntax match ocamlArrow   /=>/       contains=ocamlArrowM,ocamlArrowH
-syntax match ocamlArrowM  /=/        contained containedin=ocamlArrow conceal cchar=
-syntax match ocamlArrowH  /=\@<=>/   contained containedin=ocamlArrow conceal cchar=⇒
-
 " <> 
 syntax match ocamlNiceOperator "<>"   conceal cchar=≠
 
