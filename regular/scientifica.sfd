@@ -22,7 +22,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1513847806
-ModificationTime: 1518510687
+ModificationTime: 1518606171
+PfmFamily: 17
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,6 +42,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+OS2CodePages: ffffffff.ffffffff
+OS2UnicodeRanges: ffffffff.ffffffff.ffffffff.ffffffff
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeFull

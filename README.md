@@ -74,6 +74,8 @@ Unicode C++ (Ligatures included)
 ![scientificaligs.png](https://0x0.st/scv4.png)
 
 
+*Please read [this](./ligature_plugins/README.md) for instructions on ligatures.*
+
 ### Light background
 
 
