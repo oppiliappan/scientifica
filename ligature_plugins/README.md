@@ -1,6 +1,6 @@
 # Ligature and Unicode substitution
 
-These features are supported *in vim only*.
+These features are supported *in (neo)vim only*.
 
 ### Installation
 
@@ -11,14 +11,12 @@ Symlink the required vim plugins to
 
  ```shell
  #vim
- cd ~/scientifica/ligature_plugins/
- for i in `ls *.vim`; do
+ for i in `ls ~/scientifica/ligature_plugins/*.vim`; do
  ln -sf ~/scientifica/ligature_plugins/"$i" ~/.vim/after/syntax/"$i"
  done
 
  #nvim
- cd ~/scientifica/ligature_plugins/
- for i in `ls *.vim`; do
+ for i in `ls ~/scientifica/ligature_plugins/*.vim`; do
  ln -sf ~/scientifica/ligature_plugins/"$i" ~/.config/nvim/after/syntax/"$i"
  done
  ```
