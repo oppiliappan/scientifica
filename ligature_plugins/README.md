@@ -11,12 +11,14 @@ Symlink the required vim plugins to
 
  ```shell
  #vim
- for i in `ls ~/scientifica/ligature_plugins/*.vim`; do
+ cd ~/scientifica/ligature_plugins/
+ for i in `ls` ; do
  ln -sf ~/scientifica/ligature_plugins/"$i" ~/.vim/after/syntax/"$i"
  done
 
  #nvim
- for i in `ls ~/scientifica/ligature_plugins/*.vim`; do
+ cd ~/scientifica/ligature_plugins/
+ for i in `ls` ; do
  ln -sf ~/scientifica/ligature_plugins/"$i" ~/.config/nvim/after/syntax/"$i"
  done
  ```
