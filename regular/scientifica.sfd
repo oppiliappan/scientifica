@@ -52,11 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 43 17
+WinInfo: 0 47 14
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 1079
+BeginChars: 1114112 1081
 
 StartChar: space
 Encoding: 32 32 0
@@ -7883,6 +7883,7 @@ StartChar: uni2571
 Encoding: 9585 9585 978
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -8350,6 +8351,7 @@ StartChar: uni2573
 Encoding: 9587 9587 1037
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -8357,6 +8359,7 @@ StartChar: uni2572
 Encoding: 9586 9586 1038
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -8676,8 +8679,23 @@ Width: 1000
 VWidth: 0
 LayerCount: 2
 EndChar
+
+StartChar: uni2574
+Encoding: 9588 9588 1079
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: asteriskmath
+Encoding: 8727 8727 1080
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 1080 9 2 1 romeovs
+BitmapFont: 11 1082 9 2 1 romeovs
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -8824,8 +8842,8 @@ BDFChar: 50 82 5 0 3 0 6
 i/j&YTTG68
 BDFChar: 51 83 5 0 3 0 6
 @$#nH&<L9"
-BDFChar: 52 84 5 1 3 0 6
-i'9Om5X7R7
+BDFChar: 52 84 5 0 4 0 6
+p`L\%+<Vd,
 BDFChar: 53 85 5 0 3 0 6
 OH>QcOH=D]
 BDFChar: 54 86 5 0 3 0 6
@@ -8899,7 +8917,7 @@ OH>RnO8o7\
 BDFChar: 88 120 5 0 3 0 4
 OH<k3O8o7\
 BDFChar: 89 121 5 0 3 -2 4
-OH>QcE0+H-
+OH>QcE"HCW
 BDFChar: 90 122 5 0 3 0 4
 n/suHn,NFg
 BDFChar: 91 123 5 0 4 -1 7
@@ -8966,12 +8984,12 @@ BDFChar: 121 186 5 0 2 1 5
 5bL@BhuE`W
 BDFChar: 122 187 5 0 4 1 3
 O@YH5
-BDFChar: 123 188 5 0 3 -1 6
-+<U[R!)RVG
-BDFChar: 124 189 5 0 3 -2 6
-+<U[R!$G)\Du]k<
+BDFChar: 123 188 5 0 3 -2 8
++<VdL!:TtR:iHsG
+BDFChar: 124 189 5 0 3 -2 8
++<VdL!:Tu-0L0RW
 BDFChar: 125 190 5 0 3 -2 8
-E"F]7DufA-:iHsG
+E%hiB!:TtR:iHsG
 BDFChar: 126 191 5 0 3 0 6
 +93N,^jpA(
 BDFChar: 127 192 5 0 3 0 8
@@ -9275,7 +9293,7 @@ BDFChar: 275 340 11 0 3 0 8
 BDFChar: 276 341 11 0 3 0 7
 +@#qbOFVk3
 BDFChar: 277 342 5 0 3 -2 6
-i/j&YTV.B3J,fQL
+i/j&YTTG7#J,fQL
 BDFChar: 278 343 5 0 3 -2 4
 i/iJ>J3\Vb
 BDFChar: 279 344 11 0 3 0 8
@@ -10049,7 +10067,7 @@ L`hKrL`hKrL]@DT
 BDFChar: 663 9618 11 0 4 0 8
 W)0EhW)0EhVuQet
 BDFChar: 664 9619 11 0 4 0 8
-W7\'$W7\'$VuQet
+W;*=dW;*=dVuQet
 BDFChar: 665 9633 5 0 3 1 4
 n;rb$
 BDFChar: 666 9634 5 0 3 1 4
@@ -10287,7 +10305,7 @@ TMPWMOH>QcDu]k<
 BDFChar: 782 531 11 0 3 0 7
 @#tBHOFVk3
 BDFChar: 783 528 11 0 3 0 8
-TMPXHOPle)O8o7\
+TMPXHOPl4^O8o7\
 BDFChar: 784 529 11 0 3 0 7
 TMPXHOFVk3
 BDFChar: 785 526 11 0 3 0 8
@@ -10676,8 +10694,8 @@ BDFChar: 976 664 11 0 4 0 7
 E/9=KW/-7K
 BDFChar: 977 530 11 0 3 0 8
 @#tBHOPle)O8o7\
-BDFChar: 978 9585 11 0 0 0 0
-z
+BDFChar: 978 9585 11 0 4 -2 8
+#RC\I&0N)\5_+@b
 BDFChar: 979 10364 11 0 2 -2 4
 +93MaTE'KB
 BDFChar: 980 10363 11 0 2 -2 4
@@ -10794,10 +10812,10 @@ BDFChar: 1035 8998 11 0 0 0 0
 z
 BDFChar: 1036 8999 11 0 0 0 0
 z
-BDFChar: 1037 9587 11 0 0 0 0
-z
-BDFChar: 1038 9586 11 0 0 0 0
-z
+BDFChar: 1037 9587 11 0 4 -2 8
+Lkpj`:`plW:l'o-
+BDFChar: 1038 9586 11 0 4 -2 8
+J:N/85Th0\&-rOA
 BDFChar: 1039 9643 11 0 3 1 4
 n;rb$
 BDFChar: 1040 8802 11 0 4 -1 5
@@ -10878,5 +10896,9 @@ BDFChar: 1077 9850 11 0 4 0 5
 +A`&oLen'O
 BDFChar: 1078 8361 11 0 0 0 0
 z
+BDFChar: 1079 9588 11 0 0 0 0
+z
+BDFChar: 1080 8727 11 0 4 0 4
+:a#NU:]LIq
 EndBitmapFont
 EndSplineFont
