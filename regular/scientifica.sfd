@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 47 14
+WinInfo: 47 47 14
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
@@ -8926,7 +8926,7 @@ BDFChar: 92 124 5 2 2 -1 7
 J:N0#J:N0#J,fQL
 BDFChar: 93 125 5 0 4 -1 7
 ^`XaB(a'qD^]4?7
-BDFChar: 94 126 5 0 4 2 4
+BDFChar: 94 126 5 0 4 1 3
 5c>4o
 BDFChar: 95 160 5 0 0 0 0
 z
@@ -8991,7 +8991,7 @@ BDFChar: 124 189 5 0 3 -2 8
 BDFChar: 125 190 5 0 3 -2 8
 E%hiB!:TtR:iHsG
 BDFChar: 126 191 5 0 3 0 6
-+93N,^jpA(
++93NLJ<4.=
 BDFChar: 127 192 5 0 3 0 8
 5TjHrORS?nO8o7\
 BDFChar: 128 193 5 0 3 0 8
