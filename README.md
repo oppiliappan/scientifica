@@ -2,6 +2,7 @@
 
 # Scientifica
 
+![deets.png](https://0x0.st/s1-M.png)
 
 Tall and condensed bitmap font for geeks.  
 **Now with a bold variant!**
