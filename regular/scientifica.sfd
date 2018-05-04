@@ -52,11 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9315 45 14
+WinInfo: 8415 45 15
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 1081
+BeginChars: 1114112 1082
 
 StartChar: space
 Encoding: 32 32 0
@@ -8694,6 +8694,13 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uni21FD
+Encoding: 8701 8701 1081
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
 EndChars
 BitmapFont: 11 1082 9 2 1 romeovs
 BDFStartProperties: 39
@@ -10900,5 +10907,7 @@ BDFChar: 1079 9588 11 0 0 0 0
 z
 BDFChar: 1080 8727 11 0 4 0 4
 :a#NU:]LIq
+BDFChar: 1081 8701 11 0 0 0 0
+z
 EndBitmapFont
 EndSplineFont
