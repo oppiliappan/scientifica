@@ -4,7 +4,7 @@ FullName: scientifica
 FamilyName: scientifica
 Weight: Medium
 Copyright: Copyright (c) 2016, romeovs
-UComments: "2018-6-11: Created with FontForge (http://fontforge.org)"
+UComments: "2018-6-13: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: 1
@@ -15,17 +15,19 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 714 -1221848914 10720202]
+XUID: [1021 714 -1221848914 16334107]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1528770079
-ModificationTime: 1528770079
+CreationTime: 1528931547
+ModificationTime: 1528931547
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -34,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -42,7 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 39 22
+WinInfo: 0 80 22
 OnlyBitmaps: 1
 BeginChars: 65536 1070
 
