@@ -2,11 +2,9 @@
 
 # Scientifica
 
-![deets.png](https://0x0.st/s1JT.png)
+![deets.png](./img/sci0.png)
 
 Tall and condensed bitmap font for geeks.  
-**Now with a bold variant!**
-
 
 Scientifica is largely based on [creep](https://github.com/romeovs/creep), with a number
 of minor tweaks to improve readablity (*a matter of taste of course*).
@@ -17,9 +15,9 @@ Most characters are just 4px wide, which is brilliant for low dpi(90-120) displa
 ## What's different?
 
 
-Scientifica now has a **bold** variant too!
+Scientifica has a **bold** and an **italic** variant.
 
-Here's a few characters that recieved a revamp:
+Here are a few characters that recieved a revamp:
 
 `V, *, f, W, M, ~, & , i, t, a, (), [], {}`
 
@@ -44,25 +42,22 @@ I will be constantly adding glyphs to this font. **Keep a lookout.**
 
 Scientifica in the wild:
 
-![preview.png](https://0x0.st/scvW.png)
-
-![scientificacpp.png](https://0x0.st/scvO.png)
+![preview.png](./img/sci4.png)
 
 
 Scientifica now has most box drawing glyphs as well!
 
-![boxx.png](https://0x0.st/scEZ.png)
+![tree.png](./img/sci2.png)
 
 
 Latin, Polish, Solvakian, French, German accents included!
 
-![polski.png](https://0x0.st/scvJ.png)
+![polski.png](./img/sci3.png)
 
 
 Powerline glyphs
 
-![scientificapowerline1.png](https://0x0.st/scvy.png)
-![scientificapowerline2.png](https://0x0.st/scEC.png)
+![powerline.png](./img/sci1.png)
 
 
 Unicode Python:
@@ -99,7 +94,7 @@ You're kidding me right?
  2. Get Scientifica
  ```shell
  cd ~ 
- git clone https://github.com/nerdypepper/scientifica
+ git clone https://github.com/nerdypepper/scientifica --depth 1
  ```
 
  3. Symlink it to the right folder
@@ -110,7 +105,10 @@ ln -fs ~/scientifica/bold/scientificaBold-11.bdf ~/.local/share/fonts/scientific
 
  4. Use it. `rxvt` for example:
 
- `URxvt.font:xft:scientifica:size=11`
+ ``` ini
+URxvt.font:xft:scientifica:size=11
+URxvt.font:xft:scientifica:size=22  !for the doubled variant
+ ```
 
 
 ### MacOS
@@ -119,7 +117,7 @@ ln -fs ~/scientifica/bold/scientificaBold-11.bdf ~/.local/share/fonts/scientific
  1. Get Scientifica
  ```shell
  cd ~
- git clone https://github.com/nerdypepper/scientifica
+ git clone https://github.com/nerdypepper/scientifica --depth 1
  ```
 
  2. Open the `.dfont` in the Font Book.app  
