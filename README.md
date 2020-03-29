@@ -1,5 +1,3 @@
-![heroimage.png](https://0x0.st/scCW.png)
-
 # Scientifica
 
 ![deets.png](./img/sci0.png)
