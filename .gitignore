@@ -1,1 +1,7 @@
-tests.rs
+# build dir
+build/
+
+# stray font files
+*.otb
+*.bdf
+*.ttf
