@@ -28,8 +28,9 @@ low dpi(90-120) displays.
    * Private Use Area (Powerline symbols)
    * Mathematical Operators
    * Box Drawings
-
  - Revamped characters: `V, *, f, W, M, ~, & , i, t, a, (), [], {}`
+ - Vertically centered operators
+ - Larger Brackets to ease recognizability in streams of text
 
 ## Gallery
 
@@ -41,8 +42,7 @@ low dpi(90-120) displays.
 ## Installation
 
 Installation instructions have been moved to
-[`INSTALL.md`](INSTALL.md)
-
+[`INSTALL.md`](INSTALL.md).
 
 
 ## Credits
