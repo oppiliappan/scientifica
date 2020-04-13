@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: scientifica
 FullName: scientifica
 FamilyName: scientifica
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1528931547
-ModificationTime: 1528931547
+ModificationTime: 1586791767
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -43,9 +44,9 @@ NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 80 22
+WinInfo: 56712 68 18
 OnlyBitmaps: 1
-BeginChars: 65536 1070
+BeginChars: 65536 1085
 
 StartChar: space
 Encoding: 32 32 0
@@ -8606,8 +8607,112 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: uniE0D2
+Encoding: 57554 57554 1070
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0D4
+Encoding: 57556 57556 1071
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0D5
+Encoding: 57557 57557 1072
+Width: 1000
+LayerCount: 2
+EndChar
+
+StartChar: uniE0B6
+Encoding: 57526 57526 1073
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0B7
+Encoding: 57527 57527 1074
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0B8
+Encoding: 57528 57528 1075
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0B9
+Encoding: 57529 57529 1076
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BA
+Encoding: 57530 57530 1077
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BB
+Encoding: 57531 57531 1078
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BC
+Encoding: 57532 57532 1079
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BD
+Encoding: 57533 57533 1080
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BE
+Encoding: 57534 57534 1081
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0BF
+Encoding: 57535 57535 1082
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE0D3
+Encoding: 57555 57555 1083
+Width: 1000
+LayerCount: 2
+EndChar
+
+StartChar: uniDDAC
+Encoding: 56748 56748 1084
+Width: 1000
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 1070 9 2 1 nerdypepper
+BitmapFont: 11 1086 9 2 1 nerdypepper
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-medium-r-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -10682,8 +10787,8 @@ BDFChar: 1014 57503 11 0 4 2 2
 p](9o
 BDFChar: 1015 57504 5 0 3 0 7
 J=s->TYQ).
-BDFChar: 1016 57505 5 0 3 0 8
-J:N1.!+8W":]LIq
+BDFChar: 1016 57505 5 0 3 -1 7
+J:N1.!,tb2:]LIq
 BDFChar: 1017 57506 5 0 3 0 6
 @$$K>d*V7^
 BDFChar: 1018 57520 5 0 4 -1 7
@@ -10695,9 +10800,9 @@ BDFChar: 1020 57522 5 0 4 -1 7
 BDFChar: 1021 57523 5 0 4 -1 7
 #S8+DJ3Y4g#QOi)
 BDFChar: 1022 57524 11 0 4 -2 8
-pinb8#QP,I3-b2u
+JDfqlq"XXZnDJfs
 BDFChar: 1023 57525 11 0 4 -2 8
-q!d4WJ,k,8i:-LA
+J7&oo#RC\A&7C"g
 BDFChar: 1024 57536 5 0 4 0 4
 5bLrP8,rVi
 BDFChar: 1025 57537 5 2 4 0 4
@@ -10790,5 +10895,35 @@ BDFChar: 1068 61679 5 1 3 -1 5
 5Tg'B!$FN,
 BDFChar: 1069 61680 5 0 2 -1 5
 5_&iB!.[<7
+BDFChar: 1070 57554 11 0 4 -2 8
+q!d5"^];1.i:-LA
+BDFChar: 1071 57556 11 0 4 -2 8
+pinbX(]YC43-b2u
+BDFChar: 1072 57557 11 0 0 0 0
+z
+BDFChar: 1073 57526 11 0 4 -2 8
+#WR)(q"XXZGW5s/
+BDFChar: 1074 57527 11 0 4 -2 8
+#V\MoJ:N0#5VNHD
+BDFChar: 1075 57528 11 0 4 -2 8
+J:PGNi8EP_nG)bY
+BDFChar: 1076 57529 11 0 4 -2 8
+J:KmM+<Vd<&-rOA
+BDFChar: 1077 57530 11 0 4 -2 8
+#RD7a3&imBGkh%6
+BDFChar: 1078 57531 11 0 4 -2 8
+#RCtQ+<Vdl5_+@b
+BDFChar: 1079 57532 11 0 4 -2 8
+q"X@Ji8EP/^jpq8
+BDFChar: 1080 57533 11 0 4 -2 8
+#RCtQ+<Vdl5_+@b
+BDFChar: 1081 57534 11 0 4 -2 8
+q"T)Y3&il7(^LBI
+BDFChar: 1082 57535 11 0 4 -2 8
+J:KmM+<Vd<&-rOA
+BDFChar: 1083 57555 11 0 0 0 0
+z
+BDFChar: 1084 56748 11 0 0 0 0
+z
 EndBitmapFont
 EndSplineFont
