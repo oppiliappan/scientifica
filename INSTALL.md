@@ -1,9 +1,24 @@
 # Installation
 
+ - [Enable bitmap fonts](#enable-bitmap-fonts)
  - [Install from release](#install-from-release)
  - [Build from source](#build-from-source)
  - [Verification](#verification)
  - [Troubleshooting](#troubleshooting)
+
+## Enable bitmap fonts
+
+If you are an Debian/Ubuntu based system, chances are bitmap
+fonts are disabled, go ahead and enable them:
+
+```
+sudo mv /etc/fonts/conf.d/10-* /etc/fonts/conf.avail/
+sudo mv /etc/fonts/conf.d/70-no-bitmaps.conf /etc/fonts/conf.avail/
+```
+
+If you would like to disable them for some reason, simply
+move the files back back from `/etc/fonts/conf.avail` to
+`/etc/fonts/conf.d`.
 
 ## Install from release
 
@@ -25,7 +40,7 @@ cp ttf/* ~/.local/share/fonts/
 # but you may install the otbs if you want to
 cp otb/* ~/.local/share/fonts
 
-# bdfs are not recommendedk
+# bdfs are not recommended
 cp bdf/* ~/.local/share/fonts
 ```
 
@@ -48,7 +63,7 @@ curl -o BitsNPicas.jar "https://github.com/kreativekorp/bitsnpicas/blob/master/d
 1. Open `build.sh` and change variable `BNP` to the full
    path to the BitsNPicas `jar` file.
 ```shell
-# for example.:
+# for example:
 export BNP="/home/nerdypepper/downloads/BitsNPicas.jar"
 ```
 
