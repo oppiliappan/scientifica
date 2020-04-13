@@ -60,17 +60,17 @@ sudo apt install openjdk-8-jdk openjdk-8-jre python3 fontforge
 curl -o BitsNPicas.jar "https://github.com/kreativekorp/bitsnpicas/blob/master/downloads/BitsNPicas.jar"
 ```
 
-1. Open `build.sh` and change variable `BNP` to the full
-   path to the BitsNPicas `jar` file.
+1. Set an environment variable `BNP` to the path of
+   `BitsNPicas.jar`, defaults to the current directory if
+   unset
 ```shell
 # for example:
-export BNP="/home/nerdypepper/downloads/BitsNPicas.jar"
+user@host$ BNP="/home/nerdypepper/BitsNPicas.jar" ./build.sh
 ```
 
-2. Run `build.sh`
-3. If everything went well, you will find the generated font
+2. If everything went well, you will find the generated font
    files under the `build` folder.
-4. Continue with step 3 of "Install from release"
+3. Continue with step 3 of "Install from release"
 
 ## Verification
 

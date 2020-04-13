@@ -1,7 +1,5 @@
 #! /usr/bin/env bash
 
-export BNP="BitsNPicas.jar"
-
 ff_filter() {
     fontforge -c 'open(argv[1]).generate(argv[2])' "$1" "$2"
 }
@@ -9,6 +7,7 @@ ff_filter() {
 ttf_filter() {
     # 1 - source file
     # 2 - destination file
+    BNP=${BNP:="./BitsNPicas.jar"}
     java -jar "$BNP" convertbitmap -f ttf -o "$2" "$1"
 }
 
