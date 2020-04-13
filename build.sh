@@ -14,17 +14,27 @@ ttf_filter() {
 
 export_fonts() {
     for i in src/*; do
-        local file_name=$(basename "${i%.*}")
-        ttf_filter "$i" "build/ttf/$file_name.ttf"
-        ff_filter "$i" "build/otb/$file_name.otb"
-        ff_filter "$i" "build/bdf/$file_name.bdf"
+        local file_name
+        file_name=$(basename "${i%.*}")
+        ttf_filter "$i" "build/scientifica/ttf/$file_name.ttf"
+        ff_filter "$i" "build/scientifica/otb/$file_name.otb"
+        ff_filter "$i" "build/scientifica/bdf/$file_name.bdf"
     done
 }
 
 main() {
     rm -rf build
-    mkdir -p build/{otb,ttf,bdf}
+    mkdir -p build/scientifica/{otb,ttf,bdf}
+
+    echo "[~] Exporting fonts ..."
     export_fonts
+
+    echo "[~] Entering build directory ..."
+    cd build || echo "[!] Failed to enter build directory!"
+    tar c --file scientifica.tar scientifica
+    echo "[~] Leaving build directory ..."
+
+    echo "[!] Done!"
 }
 
 main
