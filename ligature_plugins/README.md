@@ -23,9 +23,6 @@ Symlink the required vim plugins to
  done
  ```
 
-Haskell in vim with scientifica:  
-![haskell_ligs](https://0x0.st/sT8a.png)
-
 Credits go to [romeovs](https://github.com/romeovs/) for the haskell plugin.  
 Credits go to [ehamberg](https://github.com/ehamberg/vim-cute-python) for the python plugin.
 

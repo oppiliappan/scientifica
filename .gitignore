@@ -5,3 +5,6 @@ build/
 *.otb
 *.bdf
 *.ttf
+
+# ttf converter binary
+BitsNPicas.jar
