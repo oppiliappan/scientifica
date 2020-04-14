@@ -20,7 +20,7 @@ syntax match ocamlArrowH  /-\@<=>/   contained containedin=ocamlArrow conceal cc
 syntax match ocamlArrow   /<\ze-/    contains=ocamlArrowM,ocamlArrowH
 syntax match ocamlArrowH  /</        contained containedin=ocamlArrow conceal cchar=←
 
-" <> 
+" <>
 syntax match ocamlNiceOperator "<>"   conceal cchar=≠
 
 " greek letters

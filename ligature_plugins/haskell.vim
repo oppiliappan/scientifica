@@ -26,9 +26,10 @@ syn match DMHArrowM  /=/        contained containedin=DMHArrow conceal cchar=
 syn match DMHArrowH  /=\@<=>/   contained containedin=DMHArrow conceal cchar=⇒
 
 " >>=
-syn match DTTMArrow   />>\ze=/   contains=DTTMArrowT,DTTMArrowTT
+syn match DTTMArrow   />>\ze=/   contains=DTTMArrowT,DTTMArrowTT,DTTMArrowH
 syn match DTTMArrowTT />/        contained containedin=DTTMArrow conceal cchar=
 syn match DTTMArrowT  />\@<=>/   contained containedin=DTTMArrow conceal cchar=
+syn match DTTMArrowH  /=\@<=>/   contained containedin=DTTMArrow conceal cchar=
 
 " >=>
 syn match DTMHArrow   />=>/      contains=DTMHArrowT,DTMHArrowM,DTMHArrowH
