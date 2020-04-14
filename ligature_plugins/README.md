@@ -1,30 +1,22 @@
 # Ligature and Unicode substitution
 
-These features are supported *in (neo)vim only*.
+These features are supported in {neo,}vim only.
 
 ### Installation
 
-Symlink the required vim plugins to
+Copy the required vim plugins to
 
  - `~/.vim/after/syntax/` (vim)
  - `~/.config/nvim/after/syntax/` (neovim)
 
  ```shell
- #vim
- cd ~/scientifica/ligature_plugins/
- for i in `ls` ; do
- ln -sf ~/scientifica/ligature_plugins/"$i" ~/.vim/after/syntax/"$i"
- done
-
- #nvim
- cd ~/scientifica/ligature_plugins/
- for i in `ls` ; do
- ln -sf ~/scientifica/ligature_plugins/"$i" ~/.config/nvim/after/syntax/"$i"
- done
+# the rust plugin for example:
+mkdir -p ~/.vim/after/syntax
+cp ligature_plugins/rust.vim ~/.vim/after/syntax/
  ```
 
-Credits go to [romeovs](https://github.com/romeovs/) for the haskell plugin.  
-Credits go to [ehamberg](https://github.com/ehamberg/vim-cute-python) for the python plugin.
+If you have `set conceallevel=0` if your `vimrc`, remove it.
 
-Both plugins have been modified (haskell.vim especially) to play well with scientifica.  
-If you need ligatures for other languages, just open an issue, with the language and the ligature sequence.
+Big thanks to [romeovs](https://github.com/romeovs/) for
+creating the haskell plugin and the idea of ligatures via
+conceals.

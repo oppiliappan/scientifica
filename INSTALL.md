@@ -28,7 +28,7 @@ page.
 
  2. Extract the release package:
 ```shell
-tar xzf scientifica-v1.2.tar.gz
+tar xf scientifica-v1.2.tar.gz
 ```
 
 3. You may install either the `ttf`s or the `otb`s or the
@@ -76,7 +76,7 @@ user@host$ BNP="/home/nerdypepper/BitsNPicas.jar" ./build.sh
 
 Check if your installation procedure was a success:
 
- 1. Run `fc-list | grep sci`
+ 1. Run `fc-list | grep scientifica`
  2. If the output is **not** null, congrats!
  3. Proceed to [Troubleshooting](#troubleshooting) if the output is empty
 

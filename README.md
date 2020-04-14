@@ -18,6 +18,7 @@ low dpi(90-120) displays.
 
  - Scaleable `ttf` format
  - Raster formats: `otb` and `bdf`
+ - Ligatures (vim and neovim only)
  - **Bold** and *Italic* variants
  - New Characters to the following unicode blocks:
    * Geometric Shapes
@@ -34,15 +35,26 @@ low dpi(90-120) displays.
 
 ## Gallery
 
-| ![sample image](./img/sci4.png)  | ![sample image](./img/sci2.png)  | ![sample image](./img/sci3.png)          | ![sample image](./img/sci1.png)  |
-| -------------------------------- | -------------------------------- | --------------------------------         | -------------------------------- |
-| Programming                      | Box Drawings                     | Latin, Polish, Slovakian, French, German | Powerline glyphs                 |
+| ![sample image](./img/sci4.png)  | ![sample image](./img/sci2.png)  | ![sample image](./img/sci3.png)          |
+| -------------------------------- | -------------------------------- | --------------------------------         |
+| Programming                      | Box Drawings                     | Latin, Polish, Slovakian, French, German |
+
+| ![sample image](./img/sci1.png)  | ![sample image](./img/sci5.png)          |
+| -------------------------------- | --------------------------------         |
+| Powerline Glyphs                 | Ligatures (Rust, Python, Haskell, Ocaml) |
 
 
 ## Installation
 
 Installation instructions have been moved to
 [`INSTALL.md`](INSTALL.md).
+
+## Ligatures
+
+Scientifica supports ligatures in Vim and Neovim via the
+conceal feature. Please read the
+[Ligatures](ligature_plugins/README.md)
+manual for instructions.
 
 
 ## Credits
