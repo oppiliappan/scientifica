@@ -21,16 +21,23 @@ export_fonts() {
     done
 }
 
+export_plugins() {
+    cp -r ligature_plugins build/scientifica/ligature_plugins
+}
+
 main() {
     rm -rf build
     mkdir -p build/scientifica/{otb,ttf,bdf}
+
+    echo "[~] Exporting ligature plugins ..."
+    export_plugins
 
     echo "[~] Exporting fonts ..."
     export_fonts
 
     echo "[~] Entering build directory ..."
     cd build || echo "[!] Failed to enter build directory!"
-    tar c --file scientifica.tar scientifica
+    tar c --file scientifica.tar scientifica ligature_plugins
     echo "[~] Leaving build directory ..."
 
     echo "[!] Done!"
