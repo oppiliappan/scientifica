@@ -1,8 +1,8 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: scientificaItalic
 FullName: scientifica
 FamilyName: scientifica
-Weight: Medium
+Weight: Italic
 Copyright: Copyright (c) 2016, romeovs
 Version: 001.000
 ItalicAngle: 0
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1528752866
-ModificationTime: 1528768782
+ModificationTime: 1586963935
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -55,6 +55,7 @@ OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 OS2CodePages: c0000093.cdd40000
 OS2UnicodeRanges: a00000ff.1804f8ea.00040040.00000000
+MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "FontForge : scientifica : 13-6-2018"
 Encoding: UnicodeBmp
@@ -63,8 +64,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 65 18
+WinInfo: 65 65 18
 OnlyBitmaps: 1
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65539 1073
 
 StartChar: .notdef
@@ -7578,7 +7581,7 @@ Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 11 1073 9 2 1
+BitmapFont: 11 1074 9 2 1
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-medium-i-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
