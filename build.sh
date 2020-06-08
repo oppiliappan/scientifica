@@ -37,7 +37,7 @@ main() {
 
     echo "[~] Entering build directory ..."
     cd build || echo "[!] Failed to enter build directory!"
-    tar c --file scientifica.tar scientifica ligature_plugins
+    tar c --file scientifica.tar scientifica
     echo "[~] Leaving build directory ..."
 
     echo "[!] Done!"
