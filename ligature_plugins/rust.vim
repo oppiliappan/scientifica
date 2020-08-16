@@ -19,3 +19,8 @@ syn match ImpliesHead  /=\@<=>/   contained containedin=rustImplies conceal ccha
 syn match rustIsEqual   /==/     contains=FirstEqual,SecondEqual
 syn match FirstEqual  /=/        contained containedin=rustIsEqual conceal cchar=
 syn match SecondEqual  /=\@<=>/  contained containedin=rustIsEqual conceal cchar=
+
+" #[
+syn match rustAttributeHash  /#\[/  contains=rustAH,rustAB
+syn match rustAH         /#/        contained containedin=rustAH conceal cchar=
+syn match rustAB        /\[/   contained containedin=rustAB conceal cchar=
