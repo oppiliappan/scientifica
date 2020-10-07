@@ -8,3 +8,5 @@ build/
 
 # ttf converter binary
 BitsNPicas.jar
+.envrc
+result
