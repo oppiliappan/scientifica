@@ -4,7 +4,7 @@ in
   with pkgs;
   stdenv.mkDerivation rec {
     name = "scientifica";
-    version = "v0.1.0";
+    version = "v2.1";
     src = ./src;
     buildInputs = [ fontforge python3 xorg.mkfontdir ];
 
