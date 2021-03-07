@@ -2,5 +2,5 @@
 
 with pkgs;
 mkShell {
-  buildInputs = [ fontforge python3 xorg.mkfontdir ];
+  buildInputs = [ fontforge-gtk fontforge python3 xorg.mkfontdir adoptopenjdk-bin ];
 }

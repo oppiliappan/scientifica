@@ -4,13 +4,14 @@ in
   with pkgs;
   stdenv.mkDerivation rec {
     name = "scientifica";
-    version = "v2.1";
+    version = "v2.2";
     src = ./src;
     buildInputs = [ fontforge python3 xorg.mkfontdir ];
 
     buildPhase = ''
-      for i in ./*; do
-          fontforge -c 'open(argv[1]).generate(argv[2])' $i $i.otb
+      for i in *; do
+          p=''${i%%.*}
+          fontforge -c 'open(argv[1]).generate(argv[2])' $i "$p".otb
       done
       '';
     installPhase = ''

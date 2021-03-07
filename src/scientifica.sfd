@@ -3,7 +3,7 @@ FontName: scientifica
 FullName: scientifica
 FamilyName: scientifica
 Weight: Medium
-Copyright: Copyright (c) 2016, romeovs
+Copyright: Copyright (c) 2021, Akshay Oppiliappan <nerdy@peppe.rs>
 UComments: "2018-6-13: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
@@ -16,13 +16,18 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 714 -1221848914 16334107]
-StyleMap: 0x0000
+StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1528931547
-ModificationTime: 1586791767
+ModificationTime: 315532800
+PfmFamily: 49
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,15 +42,19 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
+LangName: 1033
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: 11
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56712 68 18
+WinInfo: 0 68 18
 OnlyBitmaps: 1
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65536 1085
 
 StartChar: space
@@ -1594,7 +1603,7 @@ EndChar
 
 StartChar: Abreve
 Encoding: 258 258 193
-Width: 1000
+Width: 454
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -2834,7 +2843,7 @@ EndChar
 
 StartChar: uni019D
 Encoding: 413 413 348
-Width: 1000
+Width: 454
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -8737,7 +8746,7 @@ FONTNAME_REGISTRY 16 ""
 CHARSET_COLLECTIONS 16 "ASCII ISOLatin1Encoding ISO8859-2 ISO8859-9 ISO8859-4 Symbol ISO10646-1"
 FONT_NAME 16 "scientifica"
 FACE_NAME 16 "scientifica"
-COPYRIGHT 16 "Copyright (c) 2016, romeovs"
+COPYRIGHT 16 "Copyright (c) 2021, Akshay Oppiliappan <nerdy@peppe.rs>"
 FONT_VERSION 16 "1.0.0"
 FONT_ASCENT 18 9
 FONT_DESCENT 18 2
@@ -9141,7 +9150,7 @@ BDFChar: 191 256 5 0 3 0 8
 n,QjXORS?nO8o7\
 BDFChar: 192 257 11 0 3 0 6
 Duaj=OK_O]
-BDFChar: 193 258 11 0 3 0 8
+BDFChar: 193 258 5 0 3 0 8
 OC2IXORS?nO8o7\
 BDFChar: 194 259 5 0 3 0 7
 OC/'-OH?\C
@@ -9451,8 +9460,8 @@ BDFChar: 346 411 11 0 3 0 6
 :nSpR@$$HM
 BDFChar: 347 412 11 0 3 0 6
 OH>QcORS>3
-BDFChar: 348 413 11 0 3 -2 6
-OH@hnY`OqX?iU0,
+BDFChar: 348 413 5 -1 3 -2 6
+88)[==@btJJ,fQL
 BDFChar: 349 414 11 0 3 -2 4
 i/j%^O:Vs'
 BDFChar: 350 415 11 0 3 0 5
