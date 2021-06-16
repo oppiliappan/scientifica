@@ -15,7 +15,7 @@ mkdir -p ~/.vim/after/syntax
 cp ligature_plugins/rust.vim ~/.vim/after/syntax/
  ```
 
-If you have `set conceallevel=0` if your `vimrc`, remove it.
+If you have `set conceallevel=0` in your `vimrc`, remove it.
 
 Big thanks to [romeovs](https://github.com/romeovs/) for
 creating the haskell plugin and the idea of ligatures via
