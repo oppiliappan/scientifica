@@ -1835,7 +1835,7 @@ EndChar
 
 StartChar: gbreve
 Encoding: 287 287 222
-Width: 1000
+Width: 454
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -2339,7 +2339,7 @@ EndChar
 
 StartChar: Scedilla
 Encoding: 350 350 285
-Width: 1000
+Width: 454
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -9077,7 +9077,7 @@ BDFChar: 154 219 5 0 3 0 8
 BDFChar: 155 220 5 0 3 0 8
 O8tB(OH>QcDu]k<
 BDFChar: 156 221 5 0 3 0 8
-+@)$MODkbm?iU0,
++@)$MODkbmDu]k<
 BDFChar: 157 222 5 0 3 0 6
 JDcNNOPkWh
 BDFChar: 158 223 5 0 3 -1 5
@@ -9208,7 +9208,7 @@ BDFChar: 220 285 11 0 3 -2 7
 +A`&WOH>QC&7>J<
 BDFChar: 221 286 5 0 3 0 8
 OC2IXJ:Okc?iU0,
-BDFChar: 222 287 11 0 3 -2 7
+BDFChar: 222 287 5 0 3 -2 7
 OC/'-OH>QC&7>J<
 BDFChar: 223 288 5 0 3 0 8
 5QG2RJ:Okc?iU0,
@@ -9334,7 +9334,7 @@ BDFChar: 283 348 11 0 3 0 8
 +AcI-J7&qM?iU0,
 BDFChar: 284 349 11 0 3 0 7
 +A`&WJ7&rH
-BDFChar: 285 350 11 0 3 -2 6
+BDFChar: 285 350 5 0 3 -2 6
 @$#nH&<L9B?iU0,
 BDFChar: 286 351 5 0 3 -2 4
 E.D=-i#lD-
