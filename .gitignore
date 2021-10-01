@@ -10,3 +10,4 @@ build/
 BitsNPicas.jar
 .envrc
 result
+.direnv

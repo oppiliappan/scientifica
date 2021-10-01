@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "bitsnpicas-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1632715939,
+        "narHash": "sha256-7QnQeKEAQry1aSXqmgwwTnuXVroUdpo+8t6aJhfO+1I=",
+        "owner": "kreativekorp",
+        "repo": "bitsnpicas",
+        "rev": "b47896afe02a381f5e76871a8c7da0ce50d76a99",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kreativekorp",
+        "repo": "bitsnpicas",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1632918953,
+        "narHash": "sha256-XY3TKBfhP7wCu/SeqrwIkTWkyYHy5W1yRR8pxyzRY9Y=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ee90403e147b181300dffca5b0afa405e14f1945",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bitsnpicas-src": "bitsnpicas-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

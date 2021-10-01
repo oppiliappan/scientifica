@@ -33,26 +33,23 @@
       overlay = final: prev: rec {
 
         bitsnpicas = with final; pkgs.writeScriptBin "bitsnpicas" ''
-          ${jdk}/bin/java -jar ${bitsnpicas-src}/downloads/BitsNPicas.jar 
+          ${jdk}/bin/java -jar ${bitsnpicas-src}/downloads/BitsNPicas.jar "$@"
         '';
 
         scientifica = with final; pkgs.stdenvNoCC.mkDerivation {
           pname = "scientifica";
           version = "v2.3";
-          src = ./.;
+          src = ./src;
 
           buildPhase = ''
             runHook preBuild
 
-            fontforge=${pkgs.fontforge}/bin/fontforge
-            bitsnpicas=${self.packages.bitsnpicas}/bin/bitsnpicas
-
             ff_filter() {
-              fontforge -c 'open(argv[1]).generate(argv[2])' "$@"
+              ${pkgs.fontforge}/bin/fontforge -c 'open(argv[1]).generate(argv[2])' "$@"
             }
 
             ttf_filter() {
-              bitsnpicas convertbitmap -f ttf -o "$2" "$1"
+              ${pkgs.bitsnpicas}/bin/bitsnpicas convertbitmap -f ttf -o "$2" "$1"
             }
 
             mkdir -p $out/{ttf,otb,bdf}
@@ -68,12 +65,13 @@
               ff_filter "$i" "$out/bdf/$file_name.bdf"
             done
 
-            # copy ligature plugins
-            cp -r $src/ligature_plugins $out/ligature_plugins
-
             popd
 
             runHook postBuild
+          '';
+
+          installPhase = ''
+            true
           '';
 
         };
