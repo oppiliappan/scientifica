@@ -37,7 +37,7 @@ low dpi(90-120) displays.
 
 | ![sample image](./img/sci4.png)  | ![sample image](./img/sci2.png)  | ![sample image](./img/sci3.png)          |
 | -------------------------------- | -------------------------------- | --------------------------------         |
-| Programming                      | Box Drawings                     | Latin, Polish, Slovakian, French, German |
+| Programming                      | Box Drawings                     | Latin, Polish, Slovak, French, German |
 
 | ![sample image](./img/sci1.png)  | ![sample image](./img/sci5.png)          |
 | -------------------------------- | --------------------------------         |
